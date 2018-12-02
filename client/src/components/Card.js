@@ -27,7 +27,7 @@ const Card = ({ heading, text }) => {
         <Box height={55} p={[2]} bg={'#eee'}>
           <Heading>{heading}</Heading>
         </Box>
-        <Box p={[2]}>
+        <Box p={[2]} mt={'-12px'}>
           <Markdown>
             <ReactMarkdown source={text} />
           </Markdown>

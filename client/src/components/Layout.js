@@ -20,9 +20,7 @@ const Layout = ({ role }) => {
             <Text>{description}</Text>
           </Box>
         </Flex>
-        <Box m={[2]} width={[1]}>
-          Navigation
-        </Box>
+        <Box m={[2]} width={[1]} bg={'#f8f8f8'} />
       </Flex>
       <Flex justifyContent="space-between">{cards}</Flex>
     </Flex>
