@@ -1,0 +1,20 @@
+{
+  "SignInForm": {
+    "signIn": "Anmelden",
+    "signOut": "Ausloggen",
+    "username": "Nutzername",
+    "password": "Passwort",
+    "api": {
+      "invalidUserPassword": "Ungültiger Benutzername oder Passwort",
+      "error": "Aufgrund eines API-Fehlers konnte ich mich nicht anmelden"
+    }
+  },
+  "Account": {
+    "signOut": "Ausloggen"
+  },
+  "LanguageSelector": {
+    "en": "Englisch",
+    "de": "Deutsche",
+    "jp": "Japanisch"
+  }
+}

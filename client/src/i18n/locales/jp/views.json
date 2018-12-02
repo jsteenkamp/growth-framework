@@ -1,0 +1,15 @@
+{
+  "Start": {
+    "instrument": "楽器",
+    "startUp": "起動",
+    "engineering": "エンジニアリング",
+    "scans": "スキャン",
+    "results": "結果",
+    "notifications": "通知",
+    "status": "状態",
+    "queue": "キュー"
+  },
+  "NotFound": {
+    "404": "404お探しのページが見つかりませんでした"
+  }
+}

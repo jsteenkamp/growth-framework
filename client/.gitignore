@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+.vscode
+yarn-error.log
+node_modules
+
+# build output changes on every build
+build

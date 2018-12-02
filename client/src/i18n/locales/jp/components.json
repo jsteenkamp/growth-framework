@@ -1,0 +1,20 @@
+{
+  "SignInForm": {
+    "signIn": "サインイン",
+    "signOut": "サインアウト",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "api": {
+      "invalidUserPassword": "ユーザー名かパスワードが無効",
+      "error": "APIエラーのためにログインできません"
+    }
+  },
+  "Account": {
+    "signOut": "サインアウト"
+  },
+  "LanguageSelector": {
+    "en": "英語",
+    "de": "ドイツ人",
+    "jp": "日本人"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "software-engineering",
+  "title": "Software Engineering",
+  "roles": {
+    "software-developer-1": {
+      "id": "software-developer-1",
+      "title": "Software Developer (1)",
+      "description": "A Software Developer (1) has a solid technical foundation, and a strong focus on growing their development skills. Developers at this level are able to deliver small to medium-sized well-defined tasks, working individually or pairing with others. They have a small amount of experience in a well-defined area.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Able to identify and communicate problems with the product team and process.\n\nExample behaviours:\n\n- Raised a concern about inefficient standups at the retro"
+        },
+        {
+          "title": "Mentorship",
+          "details": "Pairs effectively with other developers in the team.\n\nExample behaviours:\n\n- Paired with a developer on a skweb feature"
+        },
+        {
+          "title": "Technical Skills",
+          "details": "Small amount of experience in one area (application, service, domain, technology, stack,etc). Able to identify and communicate problems with technology; able to suggest improvements to existing technology and tools.\n\nExample behaviours:\n\n- Added a component to skweb\n- Shipped a small feature in the iOS app\n- Increased test coverage of a skweb page\n- Found and filed a bug on skweb"
+        },
+        {
+          "title": "Communication",
+          "details": "Communicates with peers effectively and in a timely manner.\n\nExample behaviours:\n\n- Consistently writes good commit messages and release log emails\n- Asked for help during standup"
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Displays empathy towards colleagues.\n\nExample behaviours:\n\n- Gave unprompted positive feedback to a colleague\n- Checked in with a colleague who is struggling"
+        },
+        {
+          "title": "Delivery",
+          "details": "Able to deliver small medium tasks, working individually or in a pair.\n\nExample behaviours:\n\n- Shipped a small skweb feature on time without any support\n- Added a new channel adapter, pairing with another developer"
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Understands product team’s goals, and how they impact the company.\nUnderstand impact of work on product team and goals.\n\nExample behaviours:\n\n- Suggested features during a team thought-shower\n- Explained product team's goals to a new starter"
+        }
+      ]
+    },
+    "software-developer-2": {
+      "id": "software-developer-2",
+      "title": "Software Developer (2)",
+      "description": "A Software Developer (2) has a large amount of experience in a well-defined area, and works to support other developers in the team and lead by example. Developers at this level are able to deliver medium to large tasks to production, working independently if required. They use best practices to ship high-quality code, and continue to push their knowledge.",
+      "skills": [
+        { "title": "Leadership", "details": "" },
+        { "title": "Mentorship", "details": "" },
+        { "title": "Technical Skills", "details": "" },
+        { "title": "Communication", "details": "" },
+        { "title": "Emotional Intelligence", "details": "" },
+        { "title": "Delivery", "details": "" },
+        { "title": "Business Knowledge", "details": "" }
+      ]
+    },
+    "senior-software-developer-1": {
+      "id": "senior-software-developer-1",
+      "title": "Senior Software Developer (1)",
+      "description": "A Senior Software Developer (1) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They support and lead the technical direction in their product team, and can communicate future plans and direction to technical and non-technical people.",
+      "skills": [
+        { "title": "Leadership", "details": "" },
+        { "title": "Mentorship", "details": "" },
+        { "title": "Technical Skills", "details": "" },
+        { "title": "Communication", "details": "" },
+        { "title": "Emotional Intelligence", "details": "" },
+        { "title": "Delivery", "details": "" },
+        { "title": "Business Knowledge", "details": "" }
+      ]
+    },
+    "senior-software-developer-2": {
+      "id": "senior-software-developer-2",
+      "title": "Senior Software Developer (2)",
+      "description": "A Senior Software Developer (2) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They actively coach and mentor developers in their product team, and are able to identify and resolve issues with technology and product processes.",
+      "skills": [
+        { "title": "Leadership", "details": "" },
+        { "title": "Mentorship", "details": "" },
+        { "title": "Technical Skills", "details": "" },
+        { "title": "Communication", "details": "" },
+        { "title": "Emotional Intelligence", "details": "" },
+        { "title": "Delivery", "details": "" },
+        { "title": "Business Knowledge", "details": "" }
+      ]
+    },
+    "technical-lead": {
+      "id": "technical-lead",
+      "title": "Technical Lead",
+      "description": "A Technical Lead represents the technology aspect of the triumvirate in a product team, leading the technical direction, guiding developers, and communicating team progress alongside the Product Manager and Design Lead. Technical Leads have a large amount of technical experience working across multiple systems as well as great communication skills. They help keep the product team focused and delivering value.",
+      "skills": [
+        { "title": "Leadership", "details": "" },
+        { "title": "Mentorship", "details": "" },
+        { "title": "Technical Skills", "details": "" },
+        { "title": "Communication", "details": "" },
+        { "title": "Emotional Intelligence", "details": "" },
+        { "title": "Delivery", "details": "" },
+        { "title": "Business Knowledge", "details": "" }
+      ]
+    },
+    "architect": {
+      "id": "architect",
+      "title": "Architect",
+      "description": "An Architect is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across product teams, share learnings, and effectively communicate future plans to product teams and the wider company. Architects proactively work with the team to identify areas for technical improvements and action them.",
+      "skills": [
+        { "title": "Leadership", "details": "" },
+        { "title": "Mentorship", "details": "" },
+        { "title": "Technical Skills", "details": "" },
+        { "title": "Communication", "details": "" },
+        { "title": "Emotional Intelligence", "details": "" },
+        { "title": "Delivery", "details": "" },
+        { "title": "Business Knowledge", "details": "" }
+      ]
+    },
+    "senior-architect": {
+      "id": "senior-architect",
+      "title": "Senior Architect",
+      "description": "A Senior Architect is responsible for leading the Architects group. They ensure the Architects are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the product teams and business.",
+      "skills": [
+        { "title": "Leadership", "details": "" },
+        { "title": "Mentorship", "details": "" },
+        { "title": "Technical Skills", "details": "" },
+        { "title": "Communication", "details": "" },
+        { "title": "Emotional Intelligence", "details": "" },
+        { "title": "Delivery", "details": "" },
+        { "title": "Business Knowledge", "details": "" }
+      ]
+    },
+    "engineering-manager": {
+      "id": "engineering-manager",
+      "title": "Engineering Manager",
+      "description": "An Engineering Manager works with a number of product teams, supporting their developers and processes. They are responsible for managing developers across the technology team, guiding and supporting their growth. They ensure we have the right technical skills in the team to tackle the challenges the business is solving.",
+      "skills": [
+        { "title": "Leadership", "details": "" },
+        { "title": "Mentorship", "details": "" },
+        { "title": "Technical Skills", "details": "" },
+        { "title": "Communication", "details": "" },
+        { "title": "Emotional Intelligence", "details": "" },
+        { "title": "Delivery", "details": "" },
+        { "title": "Business Knowledge", "details": "" }
+      ]
+    },
+    "engineering-director": {
+      "id": "engineering-director",
+      "title": "Engineering Director",
+      "description": "An Engineering Director works across the technology team, managing managers and developing future leaders in the team. The Engineering Director identifies areas of focus for the technology team and their processes. They represent the tech team to the rest of the organisation, and help shape the team’s strategy.",
+      "skills": [
+        { "title": "Leadership", "details": "" },
+        { "title": "Mentorship", "details": "" },
+        { "title": "Technical Skills", "details": "" },
+        { "title": "Communication", "details": "" },
+        { "title": "Emotional Intelligence", "details": "" },
+        { "title": "Delivery", "details": "" },
+        { "title": "Business Knowledge", "details": "" }
+      ]
+    }
+  }
+}

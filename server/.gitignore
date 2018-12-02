@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+.vscode
+yarn-error.log
+node_modules
+
+# exclude production config (security)
+config/production.json
+
+# build output
+build
+
+# these files change with every client build
+public/index.html
+public/*.js

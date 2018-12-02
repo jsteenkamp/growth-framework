@@ -1,0 +1,15 @@
+{
+  "Start": {
+    "instrument": "Instrument",
+    "startUp": "Start Up",
+    "engineering": "Engineering",
+    "scans": "Scans",
+    "results": "Results",
+    "notifications": "Notifications",
+    "status": "Status",
+    "queue": "Queue"
+  },
+  "NotFound": {
+    "404": "404 Not Found"
+  }
+}

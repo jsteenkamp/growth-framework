@@ -1,0 +1,8 @@
+{
+  "express": {
+    "port": "3002"
+  },
+  "graphql": {
+    "path": "/graphql"
+  }
+}

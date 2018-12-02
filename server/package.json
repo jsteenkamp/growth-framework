@@ -1,0 +1,50 @@
+{
+  "name": "gf-server",
+  "version": "1.0.0",
+  "description": "Growth Framework Server",
+  "main": "index.js",
+  "author": "Johan Steenkamp",
+  "license": "MIT",
+  "scripts": {
+    "start": "export NODE_ENV=production && node build/index.js",
+    "install:production": "NODE_ENV=production yarn install",
+    "dev": "NODE_ENV=development nodemon --exec babel-node src/index.js",
+    "ndb": "NODE_ENV=development ndb nodemon --exec babel-node src/index.js",
+    "prettier": "prettier src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "build": "yarn lint && rm -rf build/* && NODE_ENV=production babel src -d build",
+    "deploy": "now && now alias $(pbpaste) gf.jsx.nz"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.0.0",
+    "bcrypt": "^3.0.1",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "config": "^3.0.0",
+    "express": "^4.16.3",
+    "graphql": "^14.0.2",
+    "graphql-type-json": "^0.2.1",
+    "jsonwebtoken": "^8.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "nodemon": "^1.17.3",
+    "prettier": "^1.12.1"
+  }
+}
