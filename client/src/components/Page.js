@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Flex, Box, Heading, Text } from '@components';
+import { Flex, Box, Heading, Text, Map } from '@components';
 
 const Page = ({ title, description, children }) => {
   return (
@@ -14,7 +14,9 @@ const Page = ({ title, description, children }) => {
             <Text>{description}</Text>
           </Box>
         </Flex>
-        <Box m={[2]} width={'33%'} bg={'#f8f8f8'} />
+        <Box m={[2]} width={'33%'}>
+          <Map />
+        </Box>
       </Flex>
       <Box m={[2]}>{children}</Box>
     </Flex>

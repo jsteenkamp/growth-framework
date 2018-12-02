@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Flex, Box, Heading, Text, Card } from '@components';
+import { Flex, Box, Heading, Text, Card, Map } from '@components';
 
 const Role = ({ role }) => {
-  const { title, description, skills } = role;
+  const { title, description, order, skills } = role;
 
   const cards = skills.map(({ title, details }) => (
     <Card key={title} heading={title} text={details} />
@@ -20,7 +20,9 @@ const Role = ({ role }) => {
             <Text>{description}</Text>
           </Box>
         </Flex>
-        <Box m={[2]} width={'33%'} bg={'#f8f8f8'} />
+        <Box m={[2]} width={'33%'}>
+          <Map selected={order} />
+        </Box>
       </Flex>
       <Flex justifyContent="space-between">{cards}</Flex>
     </Flex>

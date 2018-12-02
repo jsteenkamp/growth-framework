@@ -23,8 +23,8 @@ const Markdown = styled(Text)`
 const Card = ({ heading, text }) => {
   return (
     <Box m={[1]} width={[1]}>
-      <Box height={'100%'} bg={'#f8f8f8'}>
-        <Box height={55} p={[2]} bg={'#eee'}>
+      <Box height={'100%'} bg={'aliceblue'}>
+        <Box height={55} p={[2]} bg={'lightskyblue'}>
           <Heading>{heading}</Heading>
         </Box>
         <Box p={[2]} mt={'-12px'}>
