@@ -1,12 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from '@reach/router';
-import { Flex, Box } from '@components';
+import ReactMarkdown from 'react-markdown';
+import { Flex, Box, Page, Heading } from '@components';
 
 const Pages = ({ id = 'start' }) => {
+
   return (
-    <Flex flexDirection={'column'} m={[3]}>
-      <h1>Growth Framework</h1>
+    <Page title="Growth Framework" description="The purpose of the framework is to help you plan your career progression and to provide a clear structure of what is expected in different roles.">
+      <Heading.h6>Roles</Heading.h6>
       <ul>
         {[
           'software-developer-1',
@@ -24,7 +26,7 @@ const Pages = ({ id = 'start' }) => {
           </li>
         ))}
       </ul>
-    </Flex>
+    </Page>
   );
 };
 

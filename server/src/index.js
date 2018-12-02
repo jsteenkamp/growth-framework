@@ -6,13 +6,14 @@ import compression from 'compression';
 import { ApolloServer } from 'apollo-server-express';
 import config from 'config';
 import schemas from './schemas';
-import resolvers from './resolvers';
+import discipline from './resolvers/discipline';
 
 // config is loaded based on node ENV (from /config via config package)
 const APP_PORT = process.env.PORT || config.get('express.port');
 const GRAPHQL_ENDPOINT = config.get('graphql.path');
 // public web server directory
 const publicPath = path.normalize(path.join(__dirname, '..', 'public'));
+const dataPath = path.normalize(path.join(__dirname, '..', 'data'));
 
 // express app
 const app = express();
@@ -26,7 +27,7 @@ app.use(express.static(publicPath));
 // Apollo server
 const server = new ApolloServer({
   typeDefs: schemas,
-  resolvers,
+  resolvers: [discipline(dataPath)],
   formatError: error => {
     //console.error(error);
     return error;

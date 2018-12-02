@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Flex, Box, Heading, Text, Card } from '@components';
 
-const Layout = ({ role }) => {
+const Role = ({ role }) => {
   const { title, description, skills } = role;
 
   const cards = skills.map(({ title, details }) => (
@@ -12,7 +12,7 @@ const Layout = ({ role }) => {
   return (
     <Flex flexDirection="column" m={[3]}>
       <Flex justifyContent="space-between">
-        <Flex flexDirection="column">
+        <Flex flexDirection="column" width={'66%'}>
           <Box m={[2]}>
             <Heading.h3>{title}</Heading.h3>
           </Box>
@@ -20,17 +20,17 @@ const Layout = ({ role }) => {
             <Text>{description}</Text>
           </Box>
         </Flex>
-        <Box m={[2]} width={[1]} bg={'#f8f8f8'} />
+        <Box m={[2]} width={'33%'} bg={'#f8f8f8'} />
       </Flex>
       <Flex justifyContent="space-between">{cards}</Flex>
     </Flex>
   );
 };
 
-Layout.displayName = 'Layout';
+Role.displayName = 'Role';
 
-Layout.propTypes = {
+Role.propTypes = {
   role: PropTypes.object,
 };
 
-export default Layout;
+export default Role;

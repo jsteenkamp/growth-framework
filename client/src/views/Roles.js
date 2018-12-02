@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
-import { Layout, Spinner, MessageBox } from '@components';
+import { Role, Spinner, MessageBox } from '@components';
 
 const queryDiscipline = gql`
   query Discipline($id: String) {
@@ -24,7 +24,7 @@ const Roles = ({ id }) => (
         return <MessageBox title="Error">Check console for details</MessageBox>;
       }
 
-      return <Layout role={data.discipline.roles[id]} />;
+      return <Role role={data.discipline.roles[id]} />;
     }}
   </Query>
 );
