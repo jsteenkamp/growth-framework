@@ -14,9 +14,7 @@ const Page = ({ title, description, children }) => {
             <Text>{description}</Text>
           </Box>
         </Flex>
-        <Box m={[2]} width={'33%'}>
-          <Map />
-        </Box>
+        <Box m={[2]} width={'33%'} />
       </Flex>
       <Box m={[2]}>{children}</Box>
     </Flex>

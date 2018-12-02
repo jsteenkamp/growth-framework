@@ -1,33 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from '@reach/router';
-import ReactMarkdown from 'react-markdown';
-import { Flex, Box, Page, Heading } from '@components';
+import Start from './pages/Start';
+import Values from './pages/Values';
+import Roles from './pages/Roles';
 
 const Pages = ({ id = 'start' }) => {
+  switch (id) {
+    case 'values':
+      return <Values />;
 
-  return (
-    <Page title="Growth Framework" description="The purpose of the framework is to help you plan your career progression and to provide a clear structure of what is expected in different roles.">
-      <Heading.h6>Roles</Heading.h6>
-      <ul>
-        {[
-          'software-developer-1',
-          'software-developer-2',
-          'senior-software-developer-1',
-          'senior-software-developer-2',
-          'technical-lead',
-          'architect',
-          'senior-architect',
-          'engineering-manager',
-          'engineering-director',
-        ].map(id => (
-          <li key={id}>
-            <Link to={`/role/${id}`}>{id}</Link>
-          </li>
-        ))}
-      </ul>
-    </Page>
-  );
+    case 'roles':
+      return <Roles />;
+
+    default:
+      return <Start />;
+  }
 };
 
 Pages.displayName = 'Pages';
