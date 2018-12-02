@@ -3,7 +3,6 @@ import path from 'path';
 import { createServer } from 'http';
 import express from 'express';
 import compression from 'compression';
-import bodyParser from 'body-parser';
 import { ApolloServer } from 'apollo-server-express';
 import config from 'config';
 import schemas from './schemas';
@@ -23,9 +22,6 @@ app.use(compression());
 
 // static files mapped to public directory
 app.use(express.static(publicPath));
-
-// must set this explicitly for large GraphQL payloads
-app.use(bodyParser.json({ limit: '50mb' }));
 
 // Apollo server
 const server = new ApolloServer({
