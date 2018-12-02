@@ -1,5 +1,5 @@
 import GraphQLJSON from 'graphql-type-json';
-import data from '../models/data/software-engineering.json';
+import data from '../../data/software-engineering.json';
 
 export default {
   JSON: GraphQLJSON,

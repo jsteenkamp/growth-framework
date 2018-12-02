@@ -3,13 +3,11 @@ import flow from 'lodash/fp/flow';
 import assignIn from 'lodash/fp/assignIn';
 import map from 'lodash/fp/map';
 import reduce from 'lodash/fp/reduce';
-import { store as userStore } from './user';
-//import { store as disciplineStore } from './discipline';
 
 /**
  * Local Data Stores
  */
-const STORES = [userStore];
+const STORES = [];
 
 const reduceWithDefault = reduce.convert({ cap: false });
 
