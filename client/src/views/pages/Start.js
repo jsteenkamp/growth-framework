@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from '@reach/router';
 // import ReactMarkdown from 'react-markdown';
-import { Flex, Box, Page, Heading, Map } from '@components';
+import { Box, Page, Heading } from '@components';
 
 const Start = () => {
   return (
@@ -20,24 +20,6 @@ const Start = () => {
         <Link to={`/roles`}>
           <Heading.h6>Roles and Responsibilities</Heading.h6>
         </Link>
-      </Box>
-
-      <Box m={[2]}>
-        {[
-          'software-developer-1',
-          'software-developer-2',
-          'senior-software-developer-1',
-          'senior-software-developer-2',
-          'technical-lead',
-          'architect',
-          'senior-architect',
-          'engineering-manager',
-          'engineering-director',
-        ].map(id => (
-          <Link key={id} to={`/role/${id}`}>
-            <Heading.h6>{id}</Heading.h6>
-          </Link>
-        ))}
       </Box>
     </Page>
   );

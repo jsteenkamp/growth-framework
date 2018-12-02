@@ -27,6 +27,16 @@ export default function(dataPath) {
           });
         });
       },
+      roles: async () => {
+        return new Promise((resolve, reject) => {
+          fs.readFile(path.join(dataPath, 'software-engineering.json'), (err, data) => {
+            if (err) reject(err);
+            // convert to plain object and filter out roles
+            const roles =
+            resolve(JSON.parse(data));
+          });
+        });
+      }
     },
   };
 }
