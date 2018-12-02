@@ -15,7 +15,7 @@ const queryDiscipline = gql`
   }
 `;
 
-const Workspace = () => (
+const Workspace = ({id}) => (
 
         <Query query={queryDiscipline} variables={{ id: 'software-engineering' }}>
           {({ loading, error, data }) => {
@@ -32,7 +32,7 @@ const Workspace = () => (
             console.log(data);
 
             return (
-              <Layout role={data.discipline.roles['software-developer-1']}/>
+              <Layout role={data.discipline.roles[id]}/>
             );
           }}
         </Query>

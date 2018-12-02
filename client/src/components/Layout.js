@@ -1,28 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import { Flex, Box, Heading, Text, Card } from '@components';
-
-const Container = styled.div`
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-`;
-
-const input = `Small amount of experience in one area (application, service, domain, technology, stack,etc). Able to identify and communicate problems with technology; able to suggest improvements to existing technology and tools.
-
-Example behaviours:
-
-- Added a component to skweb
-- Shipped a small feature in the iOS app
-- Increased test coverage of a skweb page
-- Found and filed a bug on skweb`;
 
 const Layout = ({ role }) => {
   const { title, description, skills } = role;
 
-  const cards = skills.map(({title, details}) => (<Card key={title} heading={title} text={details} />));
+  const cards = skills.map(({ title, details }) => (
+    <Card key={title} heading={title} text={details} />
+  ));
 
   return (
     <Flex flexDirection="column" m={[3]}>
@@ -39,9 +24,7 @@ const Layout = ({ role }) => {
           Navigation
         </Box>
       </Flex>
-      <Flex justifyContent="space-between">
-        {cards}
-      </Flex>
+      <Flex justifyContent="space-between">{cards}</Flex>
     </Flex>
   );
 };
@@ -49,7 +32,7 @@ const Layout = ({ role }) => {
 Layout.displayName = 'Layout';
 
 Layout.propTypes = {
-  children: PropTypes.node,
+  role: PropTypes.object,
 };
 
 export default Layout;

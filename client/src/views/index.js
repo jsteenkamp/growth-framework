@@ -1,12 +1,15 @@
 import React from 'react';
 import { Router } from '@reach/router';
-import Workspace from './workspace/Workspace';
+import Pages from './Pages';
+import Roles from './Roles';
 import NotFound from './NotFound';
 
 const AppRouter = () => {
   return (
     <Router>
-      <Workspace path="/*" />
+      <Pages path="/" />
+      <Pages path="/:id" />
+      <Roles path="/role/:id" />
       <NotFound default />
     </Router>
   );
