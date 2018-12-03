@@ -12,3 +12,4 @@ export { default as Role } from './Role';
 export { default as Skills } from './Skills';
 export { default as Spinner } from './Spinner';
 export { default as Text } from './Text';
+export { default as Values } from './Values';

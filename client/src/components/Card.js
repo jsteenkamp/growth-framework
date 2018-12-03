@@ -12,10 +12,15 @@ import Text from './Text';
 const Markdown = styled(Text)`
   font-size: 0.75em;
   & ul {
-    padding-left: 16px;
+    padding-left: 8px;
     & li {
-      margin: 0;
+      margin: .5em 0;
       padding: 0;
+      list-style-type: none;
+    }
+    & li:before {
+      content: "- ";
+      margin-left: -7px;
     }
   }
 `;

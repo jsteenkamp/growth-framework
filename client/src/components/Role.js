@@ -10,7 +10,7 @@ const Role = ({ role }) => {
   ));
 
   return (
-    <Flex flexDirection="column" m={[3]}>
+    <Flex flexDirection="column" my={[3]} mx={[5]}>
       <Flex justifyContent="space-between">
         <Flex flexDirection="column" width={'66%'}>
           <Box m={[2]}>
