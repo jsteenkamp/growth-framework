@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Flex, Box, Heading, Text, Card, Map } from '@components';
 
 const Role = ({ role }) => {
-  const { title, description, order, skills } = role;
+  const { id, title, description, skills } = role;
 
   const cards = skills.map(({ title, details }) => (
     <Card key={title} heading={title} text={details} />
@@ -21,7 +21,7 @@ const Role = ({ role }) => {
           </Box>
         </Flex>
         <Box m={[2]} width={'33%'}>
-          <Map selected={order} />
+          <Map selected={id} />
         </Box>
       </Flex>
       <Flex justifyContent="space-between">{cards}</Flex>

@@ -4,18 +4,19 @@ import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import { Role, Spinner, MessageBox } from '@components';
 
-const queryDiscipline = gql`
-  query Discipline($id: String) {
-    discipline(id: $id) {
-      id
-      title
-      roles
+const queryRoles = gql`
+    query Roles($id: String) {
+        roles(id: $id) {
+            id
+            title
+            description
+            skills
+        }
     }
-  }
 `;
 
 const Roles = ({ id }) => (
-  <Query query={queryDiscipline} variables={{ id: 'software-engineering' }}>
+  <Query query={queryRoles} variables={{ id: 'software-engineering' }}>
     {({ loading, error, data }) => {
       if (loading) return <Spinner />;
 
@@ -24,7 +25,15 @@ const Roles = ({ id }) => (
         return <MessageBox title="Error">Check console for details</MessageBox>;
       }
 
-      return <Role role={data.discipline.roles[id]} />;
+      // todo: pass in discipline and role index then no role filter required
+      let role = {};
+      data.roles.map(r => {
+        if (r.id === id) {
+          role = r;
+        }
+      });
+
+      return <Role role={role} />;
     }}
   </Query>
 );

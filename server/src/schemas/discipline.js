@@ -19,6 +19,6 @@ export default gql`
     extend type Query {
         disciplines: [Discipline]
         discipline(id: String): Discipline
-        roles: [Role]
+        roles(id: String): [Role]
     }
 `;
