@@ -29,7 +29,7 @@ const Start = () => {
         </Heading.h6>
       </Box>
       <Flex>
-        <Box width={'40%'}>
+        <Box width={'33%'}>
           <Flex flexDirection="column">
             <Box>
               <Heading.h6 my={[2]}>
@@ -54,7 +54,7 @@ const Start = () => {
             </Box>
           </Flex>
         </Box>
-        <Box width={'60%'}>
+        <Box width={'66%'}>
           <Map />
         </Box>
       </Flex>

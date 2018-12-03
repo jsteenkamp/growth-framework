@@ -39,7 +39,7 @@
     {
       "id": "business",
       "title": "Business Knowledge",
-      "details": "Understanding of:\n- The music industry\n- Songkick and WMG\n- Songkick product\nteams setup\n- The goals of the product\nteam, Songkick, WMG\n- How value is delivered"
+      "details": "Understanding of:\n- Key industry verticals\n- Syft company and strategy\n- Product / vertical teams setup\n- The goals of the product / vertical teams, Syft\n- How value is delivered"
     }
   ],
   "roles": [
@@ -50,31 +50,31 @@
       "skills": [
         {
           "title": "Leadership",
-          "details": "Able to identify and communicate problems with the product team and process.\n\nExample behaviours:\n\n- Raised a concern about inefficient standups at the retro"
+          "details": "Able to identify and communicate problems with the product team and process.\n\n**Example behaviours:**\n\n- Raised a concern about inefficient standups at the retro"
         },
         {
           "title": "Mentorship",
-          "details": "Pairs effectively with other developers in the team.\n\nExample behaviours:\n\n- Paired with a developer on a skweb feature"
+          "details": "Pairs effectively with other developers in the team.\n\n**Example behaviours:**\n\n- Paired with a developer on a skweb feature"
         },
         {
           "title": "Technical Skills",
-          "details": "Small amount of experience in one area (application, service, domain, technology, stack,etc). Able to identify and communicate problems with technology; able to suggest improvements to existing technology and tools.\n\nExample behaviours:\n\n- Added a component to skweb\n- Shipped a small feature in the iOS app\n- Increased test coverage of a skweb page\n- Found and filed a bug on skweb"
+          "details": "Small amount of experience in one area (application, service, domain, technology, stack,etc). Able to identify and communicate problems with technology; able to suggest improvements to existing technology and tools.\n\n**Example behaviours:**\n\n- Added a component to skweb\n- Shipped a small feature in the iOS app\n- Increased test coverage of a skweb page\n- Found and filed a bug on skweb"
         },
         {
           "title": "Communication",
-          "details": "Communicates with peers effectively and in a timely manner.\n\nExample behaviours:\n\n- Consistently writes good commit messages and release log emails\n- Asked for help during standup"
+          "details": "Communicates with peers effectively and in a timely manner.\n\n**Example behaviours:**\n\n- Consistently writes good commit messages and release log emails\n- Asked for help during standup"
         },
         {
           "title": "Emotional Intelligence",
-          "details": "Displays empathy towards colleagues.\n\nExample behaviours:\n\n- Gave unprompted positive feedback to a colleague\n- Checked in with a colleague who is struggling"
+          "details": "Displays empathy towards colleagues.\n\n**Example behaviours:**\n\n- Gave unprompted positive feedback to a colleague\n- Checked in with a colleague who is struggling"
         },
         {
           "title": "Delivery",
-          "details": "Able to deliver small medium tasks, working individually or in a pair.\n\nExample behaviours:\n\n- Shipped a small skweb feature on time without any support\n- Added a new channel adapter, pairing with another developer"
+          "details": "Able to deliver small medium tasks, working individually or in a pair.\n\n**Example behaviours:**\n\n- Shipped a small skweb feature on time without any support\n- Added a new channel adapter, pairing with another developer"
         },
         {
           "title": "Business Knowledge",
-          "details": "Understands product team’s goals, and how they impact the company.\nUnderstand impact of work on product team and goals.\n\nExample behaviours:\n\n- Suggested features during a team thought-shower\n- Explained product team's goals to a new starter"
+          "details": "Understands product team’s goals, and how they impact the company.\nUnderstand impact of work on product team and goals.\n\n**Example behaviours:**\n\n- Suggested features during a team thought-shower\n- Explained product team's goals to a new starter"
         }
       ]
     },
@@ -85,31 +85,31 @@
       "skills": [
         {
           "title": "Leadership",
-          "details": "Able to identify problems\nwith the product team and\nprocess, and investigate\npotential causes.\nOccasionally takes\na lead in product\nteam processes.\n\nExample behaviours:\n- Facilitated a product\nteam retrospective\n- Led a feature kick-of"
+          "details": "Able to identify problems\nwith the product team and\nprocess, and investigate\npotential causes.\nOccasionally takes\na lead in product\nteam processes.\n\n**Example behaviours:**\n- Facilitated a product\nteam retrospective\n- Led a feature kick-of"
         },
         {
           "title": "Mentorship",
-          "details": "Supports new hires,\nmentors peers in an\nad-hoc way.\nAble to mentor new hires.\n\nExample behaviours:\n- Acted as a mentor\nbuddy for a new hire\n- Helped a developer\nunderstand how\nCaltrak works"
+          "details": "Supports new hires,\nmentors peers in an\nad-hoc way.\nAble to mentor new hires.\n\n**Example behaviours:**\n- Acted as a mentor\nbuddy for a new hire\n- Helped a developer\nunderstand how\nCaltrak works"
         },
         {
           "title": "Technical Skills",
-          "details": "Large amount of\nexperience in one area\n(application, service,\ndomain, technology,\nstack, etc).\nAble to identify and\ncommunicate problems\nwith technology, and\ninvestigate potential\ncauses; able to\nsuggest improvements\nto technology and\ntools and investigate\nimplementations.\n\nExample behaviours:\n- Investigated flakey\ntests on Jenkins, and\nshared output from\ninitial investigation\n- Extracted functionality\nshared by several\nskweb pages into\nits own component\n- Increased accountsservice test coverage"
+          "details": "Large amount of\nexperience in one area (application, service,\ndomain, technology,\nstack, etc).\nAble to identify and\ncommunicate problems\nwith technology, and\ninvestigate potential\ncauses; able to\nsuggest improvements\nto technology and\ntools and investigate\nimplementations.\n\n**Example behaviours:**\n- Investigated flakey\ntests on Jenkins, and\nshared output from\ninitial investigation\n- Extracted functionality\nshared by several\nskweb pages into\nits own component\n- Increased accountsservice test coverage"
         },
         {
           "title": "Communication",
-          "details": "Communicates effectively\nwith non-technical peers,\nable to present their work\nto the wider company\n\nExample behaviours:\n- Delivered a Show\nand Tell presentation\n- Acted as communicator\nduring a fire and\nupdated appropriate\nstakeholders in\na timely manner"
+          "details": "Communicates effectively\nwith non-technical peers,\nable to present their work\nto the wider company\n\n**Example behaviours:**\n- Delivered a Show\nand Tell presentation\n- Acted as communicator\nduring a fire and\nupdated appropriate\nstakeholders in\na timely manner"
         },
         {
           "title": "Emotional Intelligence",
-          "details": "Displays empathy towards\nthe users of our products.\n\nExample behaviours:\n- Voiced a concern about\nan existing bug that\naffects a large amount\nof users\n- Able to not panic during\na user-facing fire and\nidentify the failing part\nof the stack, working\nwith others to fix it"
+          "details": "Displays empathy towards\nthe users of our products.\n\n**Example behaviours:**\n- Voiced a concern about\nan existing bug that\naffects a large amount\nof users\n- Able to not panic during\na user-facing fire and\nidentify the failing part\nof the stack, working\nwith others to fix it"
         },
         {
           "title": "Delivery",
-          "details": "Able to deliver mediumlarge tasks individually or\nwith support from peers.\nAble to estimate delivery\nof work.\n\nExample behaviours:\n- Shipped a medium\nskweb feature without\nany support\n- Correctly estimated the\namount of time a new\nELS endpoint would\ntake to implement"
+          "details": "Able to deliver mediumlarge tasks individually or\nwith support from peers.\nAble to estimate delivery\nof work.\n\n**Example behaviours:**\n- Shipped a medium\nskweb feature without\nany support\n- Correctly estimated the\namount of time a new\nELS endpoint would\ntake to implement"
         },
         {
           "title": "Business Knowledge",
-          "details": "Able to ask questions /\nseek clarity on what the\nproduct team is doing\nand why.\n\nExample behaviours:\n- Raised a concern\nabout the team’s goals\nat a retrospective\n- Asked the team PM for\nclarification on why a\nparticular piece of work\nhad been prioritised"
+          "details": "Able to ask questions /\nseek clarity on what the\nproduct team is doing\nand why.\n\n**Example behaviours:**\n- Raised a concern\nabout the team’s goals\nat a retrospective\n- Asked the team PM for\nclarification on why a\nparticular piece of work\nhad been prioritised"
         }
       ]
     },
@@ -120,31 +120,31 @@
       "skills": [
         {
           "title": "Leadership",
-          "details": "Able to identify problems\nwith the product team\nand process, investigate\npotential causes, and\npropose solutions/\nnext steps.\nAble to identify product\nteam and process areas\nthat require ownership/\nimprovement.\n\nExample behaviours:\n- Suggested a new\nstandup format\n- Started and ran\nSEO council"
+          "details": "Able to identify problems\nwith the product team\nand process, investigate\npotential causes, and\npropose solutions/\nnext steps.\nAble to identify product\nteam and process areas\nthat require ownership/\nimprovement.\n\n**Example behaviours:**\n- Suggested a new\nstandup format\n- Started and ran\nSEO council"
         },
         {
           "title": "Mentorship",
-          "details": "Able to deliver constructive,\nactionable feedback in an\nempathetic way.\n\nExample behaviours:\n- Suggested\nimprovements\nempathetically during\na code review\n- Shared a blog post with\na colleague to help them\nwith a problem\n- Identified when it would\nbe more valuable for\nsomeone else to pick\nup a task (e.g. for\neducational purposes)\ninstead of doing it\nthemselves"
+          "details": "Able to deliver constructive,\nactionable feedback in an\nempathetic way.\n\n**Example behaviours:**\n- Suggested\nimprovements\nempathetically during\na code review\n- Shared a blog post with\na colleague to help them\nwith a problem\n- Identified when it would\nbe more valuable for\nsomeone else to pick\nup a task (e.g. for\neducational purposes)\ninstead of doing it\nthemselves"
         },
         {
           "title": "Technical Skills",
-          "details": "Large amount of experience\nin multiple areas.\nAble to identify and\ncommunicate problems\nwith technology,\ninvestigate potential\ncauses, and propose\nsolutions/next steps; able\nto suggest improvements\nto technology and tools,\ninvestigate implementations\nand propose next steps.\nAble to identify tech areas\nthat require ownership/\nimprovement.\nFollows the scout rule.\n\nExample behaviours:\n- Investigated adding\nJasmine to skweb,\nand shared results\nwith the team\n- Refactored a module in\na service before adding\nfunctionality to it to\nmake it more testable\n- Took ownership of the\nfirefighting process"
+          "details": "Large amount of experience\nin multiple areas.\nAble to identify and\ncommunicate problems\nwith technology,\ninvestigate potential\ncauses, and propose\nsolutions/next steps; able\nto suggest improvements\nto technology and tools,\ninvestigate implementations\nand propose next steps.\nAble to identify tech areas\nthat require ownership/\nimprovement.\nFollows the scout rule.\n\n**Example behaviours:**\n- Investigated adding\nJasmine to skweb,\nand shared results\nwith the team\n- Refactored a module in\na service before adding\nfunctionality to it to\nmake it more testable\n- Took ownership of the\nfirefighting process"
         },
         {
           "title": "Communication",
-          "details": "Able to explain their work\nto the wider company,\nincluding to a nontechnical audience.\nPractises active listening.\n\nExample behaviours:\n- Wrote a companywide email explaining\nthe impact of a technical\nchange\n- Wrote a detailed and\nconcise fireout email\n- Listened to all points\nof view during a\ndiscussion without\ninterrupting anyone"
+          "details": "Able to explain their work\nto the wider company,\nincluding to a nontechnical audience.\nPractises active listening.\n\n**Example behaviours:**\n- Wrote a companywide email explaining\nthe impact of a technical\nchange\n- Wrote a detailed and\nconcise fireout email\n- Listened to all points\nof view during a\ndiscussion without\ninterrupting anyone"
         },
         {
           "title": "Emotional Intelligence",
-          "details": "Nurtures empathy and\nno-blame culture in their\nproduct team.\n\nExample behaviours:\n- Suggested how we can\nimprove a process in the\naftermath of a\nfire instead of identifying\nwhose fault it was\n- Understood the context\nfor a certain piece\nof tech debt instead\nof apportioning blame"
+          "details": "Nurtures empathy and\nno-blame culture in their\nproduct team.\n\n**Example behaviours:**\n- Suggested how we can\nimprove a process in the\naftermath of a\nfire instead of identifying\nwhose fault it was\n- Understood the context\nfor a certain piece\nof tech debt instead\nof apportioning blame"
         },
         {
           "title": "Delivery",
-          "details": "Able to deliver mediumlarge tasks that span\nmultiple systems with\nsupport from peers.\nAble to estimate delivery\nof work, and proactively\ninform the team when\nwork is likely to be\ndelayed.\nAble to question and push\nback on work that is not\nvaluable for the tech team.\nAble to effectively\nprioritise own workload\nand focus across many\nstreams of work.\n\nExample behaviours:\n- Shipped a new microservice with support\nfrom colleagues\n- Broke a large piece\nof work into smaller\nindividual units that\ncould be parallelised"
+          "details": "Able to deliver mediumlarge tasks that span\nmultiple systems with\nsupport from peers.\nAble to estimate delivery\nof work, and proactively\ninform the team when\nwork is likely to be\ndelayed.\nAble to question and push\nback on work that is not\nvaluable for the software team.\nAble to effectively\nprioritise own workload\nand focus across many\nstreams of work.\n\n**Example behaviours:**\n- Shipped a new microservice with support\nfrom colleagues\n- Broke a large piece\nof work into smaller\nindividual units that\ncould be parallelised"
         },
         {
           "title": "Business Knowledge",
-          "details": "Able to understand\ncompany goals, ask\nquestions / challenge\ncompany goals /\nseek clarity on what\nthe company is doing\nand why.\n\nExample behaviours:\n- Asked a question about\nnext quarter’s goals\nat a company meeting\n- Understand company’s\ngoals in a 1:1 with\nmanager\n- Able to clearly explain\ncompany goals to\nothers in the team"
+          "details": "Able to understand\ncompany goals, ask\nquestions / challenge\ncompany goals /\nseek clarity on what\nthe company is doing\nand why.\n\n**Example behaviours:**\n- Asked a question about\nnext quarter’s goals\nat a company meeting\n- Understand company’s\ngoals in a 1:1 with\nmanager\n- Able to clearly explain\ncompany goals to\nothers in the team"
         }
       ]
     },
@@ -155,31 +155,31 @@
       "skills": [
         {
           "title": "Leadership",
-          "details": "Able to identify problems with the product team\nand process, investigate\npotential causes, implement solutions/next steps, and proactively inform the right people of the change.\n\nExample behaviours:\n- Implemented a new\nbug-tracking process"
+          "details": "Able to identify problems with the product team\nand process, investigate potential causes, implement solutions / next steps, and proactively inform the right people of the change.\n\n**Example behaviours:**\n- Implemented a new\nbug-tracking process"
         },
         {
           "title": "Mentorship",
-          "details": "Actively coach/mentor junior members of the team.\nActively works to share information with the team, e.g. best practices, technical approaches (avoiding silos).\n\nExample behaviours:\n- Prepared and delivered a presentation on Git best practices\n- Introduced a short\npresentation on Ruby best practices as part of onboarding"
+          "details": "Actively coach / mentor junior members of the team. Actively works to share information with the team, e.g. best practices, technical approaches (avoiding silos).\n\n**Example behaviours:**\n- Prepared and delivered a presentation on Git best practices\n- Introduced a short presentation on Ruby best practices as part of onboarding"
         },
         {
           "title": "Technical Skills",
-          "details": "Keeps up with industry best practices. Enables other developers to work more effectively. Able to identify and communicate problems with technology,investigate potential causes, propose solutions/next steps, and\nproactively inform the\nteam of changes; able to investigate improvements to technology and tools and plan implementations.\n\nExample behaviours:\n- Made a plan to add Jasmine to skweb, shared with the Architects for feedback, worked with the team to roll-out, and shared results migrating skweb to Webpack\n- Wrote and published the songkick-queue Gem"
+          "details": "Keeps up with industry best practices. Enables other developers to work more effectively. Able to identify and communicate problems with technology,investigate potential causes, propose solutions / next steps, and proactively inform the team of changes; able to investigate improvements to technology and tools and plan implementations.\n\n**Example behaviours:**\n- Made a plan to add Jasmine to skweb, shared with the Architects for feedback, worked with the team to roll-out, and shared results migrating skweb to Webpack\n- Wrote and published the songkick-queue Gem"
         },
         {
           "title": "Communication",
-          "details": "Can explain the impact of their product team’s work to non-technical stakeholders\n\nExample behaviours:\n- Delivered a presentation\nabout a technical migration at a company meeting\n- Wrote a blog post on the Songkick dev blog"
+          "details": "Can explain the impact of their product team’s work to non-technical stakeholders\n\n**Example behaviours:**\n- Delivered a presentation\nabout a technical migration at a company meeting\n- Wrote a blog post on the Songkick dev blog"
         },
         {
           "title": "Emotional Intelligence",
-          "details": "Identifies morale issues in\nproduct team, and works with team members to address or seeks support in doing so.\n\nExample behaviours:\n- Diffused tension between two participants in a retrospective"
+          "details": "Identifies morale issues in product team, and works with team members to address or seeks support in doing so.\n\n**Example behaviours:**\n- Diffused tension between two participants in a retrospective"
         },
         {
           "title": "Delivery",
-          "details": "Able to deliver large tasks that touch multiple systems, working individually when required. Able to estimate delivery of work, proactively inform the team when work is likely to be delayed, and suggest sensible workarounds/next steps to mitigate impact of delayed work.\n\nExample behaviours:\n- Reduced the scope of a feature in order to cut down development time\n- Planned and executed a database migration that required downtime, informed the right people about it and sought the right support"
+          "details": "Able to deliver large tasks that touch multiple systems, working individually when required. Able to estimate delivery of work, proactively inform the team when work is likely to be delayed, and suggest sensible workarounds / next steps to mitigate impact of delayed work.\n\n**Example behaviours:**\n- Reduced the scope of a feature in order to cut down development time\n- Planned and executed a database migration that required downtime, informed the right people about it and sought the right support"
         },
         {
           "title": "Business Knowledge",
-          "details": "Able to communicate/explain/advocate product team’s goals to developers in the team.\n\nExample behaviours:\n- Clarified to a developer on the team why a particular piece of work was valuable\n- Encouraged developers on the team to think about their work in terms of impact on the product teams goals"
+          "details": "Able to communicate / explain / advocate product team’s goals to developers in the team.\n\n**Example behaviours:**\n- Clarified to a developer on the team why a particular piece of work was valuable\n- Encouraged developers on the team to think about their work in terms of impact on the product teams goals"
         }
       ]
     },
@@ -190,31 +190,31 @@
       "skills": [
         {
           "title": "Leadership",
-          "details": "Able to identify problems\nwith the product team\nand process, and\nencourage developers\nto own investigations\nand proposals for fixes.\nAble to support and\nlead technical direction\nin a product team.\n\nExample behaviours:\n- Ran a kick-off meeting"
+          "details": "Able to identify problems with the product team and process, and encourage developers to own investigations\nand proposals for fixes.\nAble to support and lead technical direction in a product team.\n\n**Example behaviours:**\n- Ran a kick-off meeting"
         },
         {
           "title": "Mentorship",
-          "details": "Actively mentors\ndevelopers, identifying\nareas for focus and\nimprovement.\nCoaches developers\nto answers for their\nquestions / problems.\n\nExample behaviours:\n- Did a workshop on how\nTourbox-service works\n- Worked with a\ndeveloper to organise\na mob programming\nsession to remove an\ninformation silo"
+          "details": "Actively mentors developers, identifying areas for focus and improvement. Coaches developers to answers for their questions / problems.\n\n**Example behaviours:**\n- Did a workshop on how Tourbox-service works\n- Worked with a developer to organise\na mob programming session to remove an\ninformation silo"
         },
         {
           "title": "Technical Skills",
-          "details": "Keeps up with industry\nbest practices.\nUnderstands the impact\nof technology choices on\nthe team.\nAble to identify problems\nwith and improvements\nto technology and tools;\nencourages developers\nto own investigations and\nproposals for fixes and\nimprovements.\n\nExample behaviours:\n- Researched and chose\na technology for the new\nfeature on Tourbox"
+          "details": "Keeps up with industry best practices. Understands the impact of technology choices on the team. Able to identify problems\nwith and improvements to technology and tools;\nencourages developers to own investigations and proposals for fixes and improvements.\n\n**Example behaviours:**\n- Researched and chose a technology for the new feature on Tourbox"
         },
         {
           "title": "Communication",
-          "details": "Can explain the impact\nof their product team’s\nwork to non-technical\nstakeholders; can explain\nthe team’s goals to their\nteam in an engaging way.\n\nExample behaviours:\n- Delivered a presentation\nabout a technical\nmigration at a company\nmeeting"
+          "details": "Can explain the impact\nof their product team’s work to non-technical stakeholders; can explain the team’s goals to their\nteam in an engaging way.\n\n**Example behaviours:**\n- Delivered a presentation about a technical migration at a company\nmeeting"
         },
         {
           "title": "Emotional Intelligence",
-          "details": "Able to read the morale\nof their product team and\nrespond to their needs.\nWorks to actively\nimprove morale in the\nproduct teams.\n\nExample behaviours:\n- Diffused tension\nbetween two\nparticipants in\na retrospective\n- Got the engineers in\nthe team excited about\na potentially boring\npiece of work"
+          "details": "Able to read the morale of their product team and\nrespond to their needs. Works to actively improve morale in the product teams.\n\n**Example behaviours:**\n- Diffused tension between two participants in a retrospective\n- Got the engineers in the team excited about\na potentially boring piece of work"
         },
         {
           "title": "Delivery",
-          "details": "Able to estimate\ndelivery of work across\nthe product team,\nproactively informing\nthe Triumvirate and\nstakeholders on progress.\nEffectively manages\ndeliverables for the team,\nensuring the prioritised\nwork is planned and\nvaluable to our goals.\nActively works to remove\ndistractions and lowimpact work from the\ntech team.\n\nExample behaviours:\n- Delegated a task in order\nto focus on unblocking\nthe developers"
+          "details": "Able to estimate delivery of work across the product team, proactively informing the Triumvirate and stakeholders on progress. Effectively manages deliverables for the team, ensuring the prioritised work is planned and\nvaluable to our goals. Actively works to remove distractions and lowimpact work from the software team.\n\n**Example behaviours:**\n- Delegated a task in order to focus on unblocking the developers"
         },
         {
           "title": "Business Knowledge",
-          "details": "Understand and\ncommunicate the\ngoals across product\nteams, and how they\ncontribute to the\ncompany’s success.\nWorks to make\nsure developers\nunderstand the team\nand company’s goals.\nHelp shape product\nteam goals to ensure\nthey’re delivering value\nfor the business.\n\nExample behaviours:\n- Worked with PM to\npick a feasible metric\nfor the quarter\n- Had a 1:1 with\ndeveloper and gave\nthem the context behind\nthe quarterly goal"
+          "details": "Understand and communicate the goals across product teams, and how they contribute to the company’s success. Works to make sure developers understand the team and company’s goals. Help shape product team goals to ensure they’re delivering value for the business.\n\n**Example behaviours:**\n- Worked with PM to pick a feasible metric for the quarter\n- Had a 1:1 with developer and gave them the context behind the quarterly goal"
         }
       ]
     },
@@ -233,11 +233,11 @@
         },
         {
           "title": "Technical Skills",
-          "details": "Expert in a domain;\nunderstands the impact\nof technology choices\non the company.\nSolid understanding\nof entire technology\necosystem, and domain\nexperts for different areas.\nAble to identify problems\nwith technology,\ninvestigate potential\ncauses, work with\nthe team to propose\nsolutions/next steps, and\nmake sure the fixes are\nprioritised and completed.\n\nExample behaviours:\n- Planned and executed\nUTF-encoding DB\nmigration"
+          "details": "Expert in a domain;\nunderstands the impact\nof technology choices\non the company.\nSolid understanding\nof entire technology\necosystem, and domain\nexperts for different areas.\nAble to identify problems\nwith technology,\ninvestigate potential\ncauses, work with\nthe team to propose\nsolutions/next steps, and\nmake sure the fixes are\nprioritised and completed.\n\n**Example behaviours:**\n- Planned and executed\nUTF-encoding DB\nmigration"
         },
         {
           "title": "Communication",
-          "details": "Proactively communicate\nfuture plans and direction\nto technical and nontechnical people across\nproduct teams.\nWork with product teams\nto help them understand\nhow our software\narchitecture supports\nthe team’s business goals\n\nExample behaviours:\n- Created a detailed\ndocument outlining\na change that we\nneeded to make to\nour architecture, and\ndelivered presentations\nto the tech team and\nwider team to explain\nthe business need"
+          "details": "Proactively communicate\nfuture plans and direction\nto technical and nontechnical people across\nproduct teams.\nWork with product teams\nto help them understand\nhow our software\narchitecture supports\nthe team’s business goals\n\n**Example behaviours:**\n- Created a detailed\ndocument outlining\na change that we\nneeded to make to\nour architecture, and\ndelivered presentations\nto the software team and\nwider team to explain\nthe business need"
         },
         {
           "title": "Emotional Intelligence",
@@ -245,7 +245,7 @@
         },
         {
           "title": "Delivery",
-          "details": "Identifies areas where\nmajor work needs to be\ndone in order to support\nproduct teams current\nor future goals.\nAble to estimate, plan and\ndeliver large projects using\na small team.\n\nExample behaviours:\n- Researched and made\na plan to move to a\nnew data warehousing\nplatform\n- Identified the\nweaknesses of the\nexisting monitoring\nsystem, researched\na better one, and\nworked with the teams\nto move to it"
+          "details": "Identifies areas where\nmajor work needs to be\ndone in order to support\nproduct teams current\nor future goals.\nAble to estimate, plan and\ndeliver large projects using\na small team.\n\n**Example behaviours:**\n- Researched and made\na plan to move to a\nnew data warehousing\nplatform\n- Identified the\nweaknesses of the\nexisting monitoring\nsystem, researched\na better one, and\nworked with the teams\nto move to it"
         },
         {
           "title": "Business Knowledge",
@@ -265,7 +265,7 @@
         { "title": "Mentorship", "details": "Coaches Architects." },
         {
           "title": "Technical Skills",
-          "details": "Expert across multiple\ndomains.\nAble to identify problems\nwith technology, and\nencourage the Architects\nto own investigations and\nproposals for fixes.\n\nExample behaviours:\n- Moved company\ntech stack to a new\ninfrastructure\n- Planned and executed\nmoving to serviceoriented architecture"
+          "details": "Expert across multiple\ndomains.\nAble to identify problems\nwith technology, and\nencourage the Architects\nto own investigations and\nproposals for fixes.\n\n**Example behaviours:**\n- Moved company\ntech stack to a new\ninfrastructure\n- Planned and executed\nmoving to serviceoriented architecture"
         },
         {
           "title": "Communication",
@@ -292,27 +292,27 @@
       "skills": [
         {
           "title": "Leadership",
-          "details": "Support processes across\nseveral product teams.\nManage and grow\nthe technology team.\n\nExample behaviours:\n- Identified an information\nsilo and worked with\nthe product teams to\nmitigate it\n- Found an internal\ntalent development\nprogramme to help\ndirect report grow"
+          "details": "Support processes across\nseveral product teams.\nManage and grow\nthe technology team.\n\n**Example behaviours:**\n- Identified an information\nsilo and worked with\nthe product teams to\nmitigate it\n- Found an internal\ntalent development\nprogramme to help\ndirect report grow"
         },
         {
           "title": "Mentorship",
-          "details": "Develops new coaches\nand mentors in the team.\nCoaches direct reports,\nidentifies areas for their\nprogression.\nGuide developers across\nproduct teams, supporting\ndevelopment of their\ntechnical and product\nskills. Help grow reports\nand highlight areas for\nprogression.\n\nExample behaviours:\n- Identified an opportunity\nfor a team member to\nbe mentored by another\nteam member and\nworked with them\nto make it happen\n- Coached a developer\nto prepare and deliver\na dev talk"
+          "details": "Develops new coaches\nand mentors in the team.\nCoaches direct reports,\nidentifies areas for their\nprogression.\nGuide developers across\nproduct teams, supporting\ndevelopment of their\ntechnical and product\nskills. Help grow reports\nand highlight areas for\nprogression.\n\n**Example behaviours:**\n- Identified an opportunity\nfor a team member to\nbe mentored by another\nteam member and\nworked with them\nto make it happen\n- Coached a developer\nto prepare and deliver\na dev talk"
         },
         {
           "title": "Technical Skills",
-          "details": "Aware of the impact tools\nand tech have on dev team\nproductivity and happiness.\nManagement skills\n(mentoring, coaching,\ndevelopment, admin,\nplanning, etc). Understand\nthe technical challenges\nof the product teams.\n\nExample behaviours:\n- Has weekly 1:1s\nwith reports"
+          "details": "Aware of the impact tools\nand tech have on dev team\nproductivity and happiness.\nManagement skills\n(mentoring, coaching,\ndevelopment, admin,\nplanning, etc). Understand\nthe technical challenges\nof the product teams.\n\n**Example behaviours:**\n- Has weekly 1:1s\nwith reports"
         },
         {
           "title": "Communication",
-          "details": "Develops and improves\ncommunication channels\nbetween product teams.\nActs as a conduit between\ntechnology and other\ndepartments in the\nbusiness, shielding\nand fielding questions\nwhere necessary.\n\nExample behaviours:\n- Organised and ran\na weekly TL meeting"
+          "details": "Develops and improves\ncommunication channels\nbetween product teams.\nActs as a conduit between\ntechnology and other\ndepartments in the\nbusiness, shielding\nand fielding questions\nwhere necessary.\n\n**Example behaviours:**\n- Organised and ran\na weekly TL meeting"
         },
         {
           "title": "Emotional Intelligence",
-          "details": "Detects and responds\nto the needs of product\nteams and reports.\nEnsures the team\nhas a good work-life\nbalance, and is taking\nenough holiday.\n\nExample behaviours:\n- Turned a problematic\nsituation into an\nopportunity to learn\nand improve\n- Identified tension\nbetween two team\nmembers and took\nproactive steps to\nimprove it"
+          "details": "Detects and responds\nto the needs of product\nteams and reports.\nEnsures the team\nhas a good work-life\nbalance, and is taking\nenough holiday.\n\n**Example behaviours:**\n- Turned a problematic\nsituation into an\nopportunity to learn\nand improve\n- Identified tension\nbetween two team\nmembers and took\nproactive steps to\nimprove it"
         },
         {
           "title": "Delivery",
-          "details": "Creates progression\nplans to develop careers\nof the technology team.\nEnsure the technology\nteam has the right\nexpertise, working with\nthe ED/VPE/CTO to inform\nthe hiring plan.\nResponsible for the tech\nhiring process.\nEvangelises the work\nof the technology\nteam, internally to\nother departments,\nand externally.\n\nExample behaviours:\n- Advertise open tech\nroles, review CVs,\ninterview candidates,\nand run debrief sessions\n- Ensure the team\npublishes a blog\npost about our latest\ntech team initiative /\nachievement"
+          "details": "Creates progression\nplans to develop careers\nof the technology team.\nEnsure the technology\nteam has the right\nexpertise, working with\nthe ED/VPE/CTO to inform\nthe hiring plan.\nResponsible for the tech\nhiring process.\nEvangelises the work\nof the technology\nteam, internally to\nother departments,\nand externally.\n\n**Example behaviours:**\n- Advertise open tech\nroles, review CVs,\ninterview candidates,\nand run debrief sessions\n- Ensure the team\npublishes a blog\npost about our latest\nsoftware team initiative /\nachievement"
         },
         {
           "title": "Business Knowledge",
@@ -323,15 +323,15 @@
     {
       "id": "engineering-director",
       "title": "Engineering Director",
-      "description": "An Engineering Director works across the technology team, managing managers and developing future leaders in the team. The Engineering Director identifies areas of focus for the technology team and their processes. They represent the tech team to the rest of the organisation, and help shape the team’s strategy.",
+      "description": "An Engineering Director works across the technology team, managing managers and developing future leaders in the team. The Engineering Director identifies areas of focus for the technology team and their processes. They represent the software team to the rest of the organisation, and help shape the team’s strategy.",
       "skills": [
         {
           "title": "Leadership",
-          "details": "Ability to identify and\nwork with the team\nto fix problems with\ntech team processes.\nSupport processes across\nseveral product teams.\nManage, grow, and help\nlead the technology team.\n\nExample behaviours:\n- Develop a quarterly peer\nreview process"
+          "details": "Ability to identify and\nwork with the team\nto fix problems with\nsoftware team processes.\nSupport processes across\nseveral product teams.\nManage, grow, and help\nlead the technology team.\n\n**Example behaviours:**\n- Develop a quarterly peer\nreview process"
         },
         {
           "title": "Mentorship",
-          "details": "Creates ways for people\nto mentor each other.\nGuide developers\nacross the technology\nteam to solutions,\nsupporting development\nof their technical and\nproduct skills. Help grow\nreports and highlight areas\nfor progression.\n\nExample behaviours:\n- Delivered a coaching\nworkshop\n- Introduced brownbag talks and lined\nup speakers"
+          "details": "Creates ways for people\nto mentor each other.\nGuide developers\nacross the technology\nteam to solutions,\nsupporting development\nof their technical and\nproduct skills. Help grow\nreports and highlight areas\nfor progression.\n\n**Example behaviours:**\n- Delivered a coaching\nworkshop\n- Introduced brownbag talks and lined\nup speakers"
         },
         {
           "title": "Technical Skills",
@@ -339,19 +339,19 @@
         },
         {
           "title": "Communication",
-          "details": "Develops and improves\ncommunication channels\nfor the whole tech team.\nPromotes Songkick\nexternally.\n\nExample behaviours:\n- Introduced the\nrelease-log email\nand explained to the\nteam why it’s valuable\n- Gave a presentation\nabout Songkick at\nMakers Academy\njobs fair"
+          "details": "Develops and improves\ncommunication channels\nfor the whole software team.\nPromotes Songkick\nexternally.\n\n**Example behaviours:**\n- Introduced the\nrelease-log email\nand explained to the\nteam why it’s valuable\n- Gave a presentation\nabout Songkick at\nMakers Academy\njobs fair"
         },
         {
           "title": "Emotional Intelligence",
-          "details": "Proactively improves\nthe morale of the\nengineering team.\n\nExample behaviours:\n- Organised a celebration\nof completion of a large\npiece of work"
+          "details": "Proactively improves\nthe morale of the\nengineering team.\n\n**Example behaviours:**\n- Organised a celebration\nof completion of a large\npiece of work"
         },
         {
           "title": "Delivery",
-          "details": "Identifies and develops\nfuture managers / leaders\nin the team.\nOrganises the EM group,\nproviding coaching,\nsupport, and guidance.\nWorks with the CTO\nto determine the tech\nstrategy, considering\nbusiness focus, hiring,\nbudgets, and the\ncurrent team.\n\nExample behaviours:\n- Identified a future\nengineering manager\nin the team and gave\nthem the right support\nto become one"
+          "details": "Identifies and develops\nfuture managers / leaders\nin the team.\nOrganises the EM group,\nproviding coaching,\nsupport, and guidance.\nWorks with the CTO\nto determine the tech\nstrategy, considering\nbusiness focus, hiring,\nbudgets, and the\ncurrent team.\n\n**Example behaviours:**\n- Identified a future\nengineering manager\nin the team and gave\nthem the right support\nto become one"
         },
         {
           "title": "Business Knowledge",
-          "details": "Understands and affects\nthe role of the tech team\nwithin WMG.\nUnderstand how the\ntechnology team and\nother departments\ndeliver business value,\nand use knowledge\nto help shape strategy\nof technology team.\n\nExample behaviours:\n- Influenced the company\nstrategy by voicing the\nneeds of the engineering\nteam during planning\n- Built a productive\nrelationship between\nthe technology team\nand the Artist Services\ndepartment of WEA"
+          "details": "Understands and affects\nthe role of the software team\nwithin WMG.\nUnderstand how the\ntechnology team and\nother departments\ndeliver business value,\nand use knowledge\nto help shape strategy\nof technology team.\n\n**Example behaviours:**\n- Influenced the company\nstrategy by voicing the\nneeds of the engineering\nteam during planning\n- Built a productive\nrelationship between\nthe technology team\nand the Artist Services\ndepartment of WEA"
         }
       ]
     }

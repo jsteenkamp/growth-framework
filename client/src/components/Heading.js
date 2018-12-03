@@ -5,9 +5,9 @@ import { themeGet } from 'styled-system';
 const Heading = sys(
   {
     is: 'h6',
-    fontSize: 4,
-    fontWeight: 0,
-    lineHeight: 1,
+    fontSize: 3,
+    fontWeight: 500,
+    lineHeight: 1.1,
     letterSpacing: 0.25,
     m: 0,
   },
@@ -26,9 +26,9 @@ Heading.displayName = 'Heading';
 
 Heading.h1 = props => <Heading {...props} is="h1" fontSize={9} fontWeight={0} letterSpacing={-1.5} />;
 Heading.h2 = props => <Heading {...props} is="h2" fontSize={8} fontWeight={0} letterSpacing={-0.5} />;
-Heading.h3 = props => <Heading {...props} is="h3" fontSize={7} fontWeight={0} letterSpacing={0} />;
+Heading.h3 = props => <Heading {...props} is="h3" fontSize={7} fontWeight={0} letterSpacing={0} lineHeight={1.5} />;
 Heading.h4 = props => <Heading {...props} is="h4" fontSize={6} fontWeight={0} letterSpacing={0.25} />;
 Heading.h5 = props => <Heading {...props} is="h5" fontSize={5} fontWeight={0} letterSpacing={0} />;
-Heading.h6 = props => <Heading {...props} is="h6" fontSize={4} fontWeight={0} letterSpacing={0.15} />;
+Heading.h6 = props => <Heading {...props} is="h6" fontSize={4} fontWeight={0} letterSpacing={0} lineHeight={1.2} />;
 
 export default Heading;

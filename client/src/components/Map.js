@@ -2,12 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
-import { Flex, Box, Spinner, MessageBox, Text } from '@components';
+import { darken } from 'polished';
+import { Flex, Box, Spinner, MessageBox, Text, Heading } from '@components';
 import { navigate } from '@reach/router';
 
 const colors = {
-  dark: 'lightskyblue',
-  light: 'aliceblue',
+  dark: darken(0.12, 'lightskyblue'),
+  light: darken(0.01, 'aliceblue'),
 };
 
 const queryRoles = gql`
@@ -33,7 +34,7 @@ const RoleBox = ({ width = '30%', selected, role, labels }) => {
         bg={bg}
         onClick={() => navigate(`/role/${id}`)}
       >
-        {labels ? <Text align="center">{title}</Text> : null}
+        {labels ? <Heading.h6 align="center" color={'white'}>{title}</Heading.h6> : null}
       </Box>
       <Box />
     </Flex>
@@ -55,14 +56,14 @@ const SplitBox = ({ width = '50%', selected, roles, labels }) => {
             width={'60%'}
             onClick={() => navigate(`/role/${roles[0].id}`)}
           >
-            {labels ? <Text align="center">{roles[0].title}</Text> : null}
+            {labels ? <Heading.h6 align="center" color={'white'}>{roles[0].title}</Heading.h6> : null}
           </Box>
           <Box
             p={[2]}
             width={'40%'}
             onClick={() => navigate(`/role/${roles[1].id}`)}
           >
-            {labels ? <Text align="center">{roles[1].title}</Text> : null}
+            {labels ? <Heading.h6 align="center" color={'white'}>{roles[1].title}</Heading.h6> : null}
           </Box>
         </Flex>
       </Box>

@@ -5,8 +5,11 @@
   "main": "index.js",
   "author": "Johan Steenkamp",
   "license": "MIT",
+  "engines": {
+    "node": "^8.11.3"
+  },
   "scripts": {
-    "start": "export NODE_ENV=production && node build/index.js",
+    "start": "NODE_ENV=production && node build/index.js",
     "install:production": "NODE_ENV=production yarn install",
     "dev": "NODE_ENV=development nodemon --exec babel-node src/index.js",
     "ndb": "NODE_ENV=development ndb nodemon --exec babel-node src/index.js",

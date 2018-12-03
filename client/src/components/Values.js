@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { Flex, Box, Heading } from '@components';
+import { darken } from 'polished';
+import { Flex, Box, Heading, Text } from '@components';
 
 const Circle = styled.div`
   border-radius: 100%;
@@ -10,11 +11,10 @@ const Circle = styled.div`
   height: 0;
   width: 100%;
   padding: 50% 0;
-  background: lightskyblue;
+  background: ${darken(0.12, 'lightskyblue')};
 
   & > * {
-    font-size: 0.8em;
-    line-height: 1em;
+    color: white;
   }
 `;
 
@@ -29,10 +29,10 @@ const Wrapper = ({ title, text }) => (
       >
         <Box />
         <Box m={[2]}>
-          <Heading.h5>{title}</Heading.h5>
+          <Heading.h6 color={'white'}>{title}</Heading.h6>
         </Box>
         <Box mx={[3]}>
-          {text}
+          <Text fontSize={14} color={'white'}>{text}</Text>
         </Box>
         <Box />
       </Flex>
@@ -40,7 +40,7 @@ const Wrapper = ({ title, text }) => (
   </Box>
 );
 
-const Values = props => {
+const Values = () => {
   return (
     <Flex>
       <Wrapper

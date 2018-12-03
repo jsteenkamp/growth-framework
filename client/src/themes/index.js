@@ -14,7 +14,7 @@ export const shadows = allShadows;
 export const theme = {
   breakpoints: [ '30em', '40em', '52em', '64em' ],
   space: [ 0, 4, 8, 16, 32, 64, 128, 256, 512 ],
-  fontSizes: [ 10, 12, 14, 16, 20, 24, 34, 48, 60, 96 ],
+  fontSizes: [ 10, 12, 14, 16, 18, 21, 24, 36, 48, 60 ],
   // Material design uses light, regular, medium variants of Roboto - https://material.io/design/typography/the-type-system.html#type-scale
   fontWeights: [ 300, 500, 700 ],
   lineHeights: [0, 1, 1.5, 3, 8],

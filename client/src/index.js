@@ -8,11 +8,10 @@ import Views from './views';
 // top level test of react suspense
 import { Spinner } from '@components';
 
-// CSS reset (gray background: #f5f5f6)
 const GlobalStyle = createGlobalStyle`
   body { margin: 0; background: white; font-family: sans-serif; }
   * { box-sizing: border-box; }
-  a { color: inherit; text-decoration: none; } 
+  a { color: inherit; text-decoration: none; }
 `;
 
 const Index = () => {

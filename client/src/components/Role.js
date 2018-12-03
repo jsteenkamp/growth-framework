@@ -16,15 +16,15 @@ const Role = ({ role }) => {
           <Box m={[2]}>
             <Heading.h3>{title}</Heading.h3>
           </Box>
-          <Box m={[2]}>
+          <Box mx={[2]}>
             <Heading.h6>{description}</Heading.h6>
           </Box>
         </Flex>
-        <Box m={[2]} width={'33%'}>
+        <Box mx={[2]} width={'33%'}>
           <Map selected={id} labels={false} />
         </Box>
       </Flex>
-      <Flex justifyContent="space-between">{cards}</Flex>
+      <Flex my={[4]} justifyContent="space-between">{cards}</Flex>
     </Flex>
   );
 };
