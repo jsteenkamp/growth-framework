@@ -5,6 +5,43 @@
   "version": "0.1",
   "title": "Software Engineering",
   "description": "The purpose of this framework is to help you plan your career and to provide a clear structure of what is expected in different roles.",
+  "skills": [
+    {
+      "id": "leadership",
+      "title": "Leadership",
+      "details": "- Problem solving\n- Leading by example\n- Instigating change\n- Growing teams\n- Understanding what\ndrives people\n- Developing processes"
+    },
+    {
+      "id": "mentorship",
+      "title": "Mentorship",
+      "details": "- Mentoring\n- Coaching\n- Identifying areas\nof improvement\nand progression"
+    },
+    {
+      "id": "technical",
+      "title": "Technical Skills",
+      "details": "- Breadth of experience\n(applications, services,\ndomains, technologies,\nstacks)\n- Knowledge of best\npractices\n- Testing\n- Refactoring and\ncodebase improvements\n- Tooling and awareness\nof progress in industry"
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "details": "- Written and oral\ncommunication\n- Explaining work to\npeers and non-technical\nstakeholders\n- Proactive\ncommunication\n- Developing and improving\ncommunication channels"
+    },
+    {
+      "id": "emotional",
+      "title": "Emotional Intelligence",
+      "details": "- Empathy\n- Avoiding blame\n- Awareness\nof team morale\n- Taking active steps\nto improve morale"
+    },
+    {
+      "id": "delivery",
+      "title": "Delivery",
+      "details": "- Showing initiative\n- Estimating effectively\n- Ability to delegate\n- Size and scope\nof the deliverables\n- Understanding when\nto get support\n- Impact on tech\nteam productivity"
+    },
+    {
+      "id": "business",
+      "title": "Business Knowledge",
+      "details": "Understanding of:\n- The music industry\n- Songkick and WMG\n- Songkick product\nteams setup\n- The goals of the product\nteam, Songkick, WMG\n- How value is delivered"
+    }
+  ],
   "roles": [
     {
       "id": "software-developer-1",

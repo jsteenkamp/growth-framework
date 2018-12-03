@@ -1,14 +1,14 @@
 import React from 'react';
 import { Router } from '@reach/router';
-import Pages from './Pages';
 import Roles from './Roles';
 import NotFound from './NotFound';
+
+import Start from './Start';
 
 const AppRouter = () => {
   return (
     <Router>
-      <Pages path="/" />
-      <Pages path="/:id" />
+      <Start path="/" />
       <Roles path="/role/:id" />
       <NotFound default />
     </Router>

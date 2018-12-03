@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Flex, Box, Heading, Text, Card, Map } from '@components';
+import { Flex, Box, Heading, Card, Map } from '@components';
 
 const Role = ({ role }) => {
   const { id, title, description, skills } = role;
@@ -17,11 +17,11 @@ const Role = ({ role }) => {
             <Heading.h3>{title}</Heading.h3>
           </Box>
           <Box m={[2]}>
-            <Text>{description}</Text>
+            <Heading.h6>{description}</Heading.h6>
           </Box>
         </Flex>
         <Box m={[2]} width={'33%'}>
-          <Map selected={id} />
+          <Map selected={id} labels={false} />
         </Box>
       </Flex>
       <Flex justifyContent="space-between">{cards}</Flex>

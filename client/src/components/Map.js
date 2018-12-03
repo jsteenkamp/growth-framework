@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import { Flex, Box, Spinner, MessageBox, Text } from '@components';
-import { Link } from '@reach/router';
+import { navigate } from '@reach/router';
 
 const colors = {
   dark: 'lightskyblue',
@@ -19,42 +19,59 @@ const queryRoles = gql`
   }
 `;
 
-const RoleBox = ({ width = '40%', selected, role }) => {
+const RoleBox = ({ width = '30%', selected, role, labels }) => {
   const { id, title } = role;
-  const bg = selected === id ? colors.dark : colors.light;
+  const bg = (labels || selected === id) ? colors.dark : colors.light;
   return (
     <Flex justifyContent="space-between">
       <Box />
-      <Box m={[1]} p={[2]} width={width} minHeight={16} bg={bg}>
-        <Link to={`/role/${id}`}>
-          <Text align="center">{title}</Text>
-        </Link>
+      <Box
+        m={[1]}
+        p={[2]}
+        width={width}
+        minHeight={16}
+        bg={bg}
+        onClick={() => navigate(`/role/${id}`)}
+      >
+        {labels ? <Text align="center">{title}</Text> : null}
       </Box>
       <Box />
     </Flex>
   );
 };
 
-const SplitBox = ({ width = '50%', selected, roles }) => {
+const SplitBox = ({ width = '50%', selected, roles, labels }) => {
   const bg =
-    selected === roles[0].id || selected === roles[1].id
+    (labels || selected === roles[0].id || selected === roles[1].id)
       ? colors.dark
       : colors.light;
   return (
     <Flex justifyContent="space-between">
       <Box />
-      <Box m={[1]} p={[2]} width={width} minHeight={16} bg={bg}>
-        <Text align="center">
-          <Link to={`/role/${roles[0].id}`}>{roles[0].title}</Link> /{' '}
-          <Link to={`/role/${roles[1].id}`}>{roles[1].title}</Link>
-        </Text>
+      <Box m={[1]}  width={width} minHeight={16} bg={bg}>
+        <Flex>
+          <Box
+            p={[2]}
+            width={'60%'}
+            onClick={() => navigate(`/role/${roles[0].id}`)}
+          >
+            {labels ? <Text align="center">{roles[0].title}</Text> : null}
+          </Box>
+          <Box
+            p={[2]}
+            width={'40%'}
+            onClick={() => navigate(`/role/${roles[1].id}`)}
+          >
+            {labels ? <Text align="center">{roles[1].title}</Text> : null}
+          </Box>
+        </Flex>
       </Box>
       <Box />
     </Flex>
   );
 };
 
-const Map = ({ selected }) => {
+const Map = ({ selected, labels = true }) => {
   return (
     <Query query={queryRoles} variables={{ id: 'software-engineering' }}>
       {({ loading, error, data }) => {
@@ -71,22 +88,43 @@ const Map = ({ selected }) => {
 
         return (
           <Flex flexDirection="column">
-            <RoleBox selected={selected} role={roles[0]} />
-            <RoleBox selected={selected} role={roles[1]} />
-            <RoleBox selected={selected} role={roles[2]} />
+            <RoleBox selected={selected} role={roles[0]} labels={labels} />
+            <RoleBox selected={selected} role={roles[1]} labels={labels} />
+            <RoleBox selected={selected} role={roles[2]} labels={labels} />
             <SplitBox
               wselectedth={'60%'}
               selected={selected}
               roles={[roles[3], roles[4]]}
+              labels={labels}
             />
             <Flex>
               <Flex width={'50%'} flexDirection="column">
-                <RoleBox width={'80%'} selected={selected} role={roles[5]} />
-                <RoleBox width={'80%'} selected={selected} role={roles[6]} />
+                <RoleBox
+                  width={'60%'}
+                  selected={selected}
+                  role={roles[5]}
+                  labels={labels}
+                />
+                <RoleBox
+                  width={'60%'}
+                  selected={selected}
+                  role={roles[6]}
+                  labels={labels}
+                />
               </Flex>
               <Flex width={'50%'} flexDirection="column">
-                <RoleBox width={'80%'} selected={selected} role={roles[7]} />
-                <RoleBox width={'80%'} selected={selected} role={roles[8]} />
+                <RoleBox
+                  width={'60%'}
+                  selected={selected}
+                  role={roles[7]}
+                  labels={labels}
+                />
+                <RoleBox
+                  width={'60%'}
+                  selected={selected}
+                  role={roles[8]}
+                  labels={labels}
+                />
               </Flex>
             </Flex>
           </Flex>

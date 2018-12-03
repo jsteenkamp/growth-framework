@@ -48,5 +48,18 @@ export default {
         );
       });
     },
+    skills: async (root, {id}) => {
+      return new Promise((resolve, reject) => {
+        fs.readFile(
+          path.join(dataPath, `${id}.json`),
+          (err, data) => {
+            if (err) reject(err);
+            // convert to plain object and filter out roles
+            const { skills } = JSON.parse(data);
+            resolve(skills);
+          }
+        );
+      });
+    },
   },
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Flex, Box, Heading, Text, Map } from '@components';
+import { Flex, Box, Heading } from '@components';
 
 const Page = ({ title, description, children }) => {
   return (
@@ -11,7 +11,7 @@ const Page = ({ title, description, children }) => {
             <Heading.h3>{title}</Heading.h3>
           </Box>
           <Box m={[2]}>
-            <Text>{description}</Text>
+            <Heading.h6>{description}</Heading.h6>
           </Box>
         </Flex>
         <Box m={[2]} width={'33%'} />

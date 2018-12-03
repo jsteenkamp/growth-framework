@@ -2,6 +2,12 @@ import { gql } from 'apollo-server-express';
 
 export default gql`  
   
+    type Skill {
+        id: ID!
+        title: String
+        details: String
+    }
+  
     type Role {
         id: ID!
         order: Int
@@ -20,5 +26,6 @@ export default gql`
         disciplines: [Discipline]
         discipline(id: String): Discipline
         roles(id: String): [Role]
+        skills(id: String): [Skill]
     }
 `;
