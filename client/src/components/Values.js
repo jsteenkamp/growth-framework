@@ -19,7 +19,7 @@ const Circle = styled.div`
 `;
 
 const Wrapper = ({ title, text }) => (
-  <Box my={[3]} width={'100%'} height={'100%'}>
+  <Box width={'100%'} height={'100%'}>
     <Circle>
       <Flex
         height={'100%'}
@@ -28,10 +28,10 @@ const Wrapper = ({ title, text }) => (
         alignItems="center"
       >
         <Box />
-        <Box width={'150px'} m={[2]}>
+        <Box m={[2]}>
           <Heading.h5>{title}</Heading.h5>
         </Box>
-        <Box width={'150px'} m={[2]}>
+        <Box mx={[3]}>
           {text}
         </Box>
         <Box />
