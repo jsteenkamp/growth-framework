@@ -19,8 +19,8 @@ const Start = () => {
           All members of the software engineering team are expected to exhibit Syft’s
           values in their work, regardless of role or level.
         </Heading.h6>
-        <Values my={[2]} />
       </Box>
+      <Values my={[2]} />
       <Box width={'66%'} my={[4]}>
         <Heading.h4 my={[2]}>Roles and Responsibilities</Heading.h4>
         <Heading.h6>
