@@ -24,7 +24,7 @@ const Role = ({ role }) => {
           <Map selected={id} labels={false} />
         </Box>
       </Flex>
-      <Flex my={[4]} justifyContent="space-between">{cards}</Flex>
+      <Flex my={[3]} justifyContent="space-between">{cards}</Flex>
     </Flex>
   );
 };
