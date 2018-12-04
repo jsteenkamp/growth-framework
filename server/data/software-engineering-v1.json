@@ -1,0 +1,359 @@
+{
+  "id": "software-engineering",
+  "date": "2/12/2012",
+  "author": "Johan Steenkamp",
+  "version": "0.1",
+  "title": "Software Engineering",
+  "description": "The purpose of this framework is to help you plan your career and to provide a clear structure of what is expected in different roles.",
+  "skills": [
+    {
+      "id": "leadership",
+      "title": "Leadership",
+      "details": "- Problem solving\n- Leading by example\n- Instigating change\n- Growing teams\n- Understanding what drives people\n- Developing processes"
+    },
+    {
+      "id": "mentorship",
+      "title": "Mentorship",
+      "details": "- Mentoring\n- Coaching\n- Identifying areas of improvement\nand progression"
+    },
+    {
+      "id": "technical",
+      "title": "Technical Skills",
+      "details": "- Breadth of experience (applications, services, domains, technologies, stacks)\n- Knowledge of best practices\n- Testing\n- Refactoring and codebase improvements\n- Tooling and awareness of progress in industry"
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "details": "- Written and oral communication\n- Explaining work to peers and non-technical stakeholders\n- Proactive communication\n- Developing and improving communication channels"
+    },
+    {
+      "id": "emotional",
+      "title": "Emotional Intelligence",
+      "details": "- Empathy\n- Avoiding blame\n- Awareness of team morale\n- Taking active steps to improve morale"
+    },
+    {
+      "id": "delivery",
+      "title": "Delivery",
+      "details": "- Showing initiative\n- Estimating effectively\n- Ability to delegate\n- Size and scope of the deliverables\n- Understanding when to get support\n- Impact on software team productivity"
+    },
+    {
+      "id": "business",
+      "title": "Business Knowledge",
+      "details": "Understanding of:\n- Key industry verticals\n- Company structure and strategy\n- Product/vertical teams setup\n- The goals of the product/vertical teams\n- How value is delivered"
+    }
+  ],
+  "roles": [
+    {
+      "id": "software-developer-1",
+      "title": "Software Developer (1)",
+      "description": "A Software Developer (1) has a solid technical foundation, and a strong focus on growing their development skills. Developers at this level are able to deliver small to medium-sized well-defined tasks, working individually or collaborating with others. They have a small amount of experience in a well-defined area.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Exhibits Syft's core values, focuses on understanding and living these values.\n\nAble to identify and communicate problems with the product team and process.\n\n**Example behaviours:**\n\n- Raised a concern about inefficient workflow"
+        },
+        {
+          "title": "Mentorship",
+          "details": "Collaborates effectively with other developers in the team.\n\n**Example behaviours:**\n\n- Work collaboratively with a developer on a feature\n- Developing knowledge of a single component of our architecture"
+        },
+        {
+          "title": "Technical Skills",
+          "details": "Broad knowledge of core CS concepts.\n\nFocus on growing as an engineer, learning existing tools, resources and processes.\n\nSmall amount of experience in one area (application, service, domain, technology, stack, etc).\n\nAble to identify and communicate problems with technology.\n\nAble to suggest improvements to existing technology and tools.\n\n**Example behaviours:**\n\n- Added a component to software platform\n- Shipped a small feature in the web app\n- Increased test coverage\n- Found and filed a bug"
+        },
+        {
+          "title": "Communication",
+          "details": "Communicates with peers effectively and in a timely manner.\n\nAccepts feedback graciously and learns from everything they do.\n\n**Example behaviours:**\n\n- Consistently writes good commit messages and release log emails\n- Asked for help"
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Displays empathy towards colleagues.\n\n**Example behaviours:**\n\n- Gave unprompted positive feedback to a colleague\n- Checked in with a colleague who is struggling"
+        },
+        {
+          "title": "Delivery",
+          "details": "Develops their productivity skills by learning source control, editors, the build system, and other tools as well as testing best practices.\n\nAble to deliver small/medium tasks, working individually or collaboratively.\n\n**Example behaviours:**\n\n- Shipped a small feature on time without any support\n- Added a new UI component"
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Understands product/sales team's goals, and how they impact the company.\n\nUnderstand impact of work on product/sales team and goals.\n\n**Example behaviours:**\n\n- Suggested features during a team meeting\n- Explained product team's goals to a new starter"
+        }
+      ]
+    },
+    {
+      "id": "software-developer-2",
+      "title": "Software Developer (2)",
+      "description": "A Software Developer (2) has a large amount of experience in a well-defined area, and works to support other developers in the team and leads by example. Developers at this level are able to deliver medium to large tasks to production, working independently if required. They use best practices to ship high-quality code, and continue to push their knowledge.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Able to identify problems with the team and process, and investigate potential causes.\n\nOccasionally takes a lead in team processes.\n\n**Example behaviours:**\n- Facilitated a team retrospective\n- Led a feature kick-off"
+        },
+        {
+          "title": "Mentorship",
+          "details": "Supports new hires, mentors peers in an ad-hoc way.\n\nAble to mentor new hires.\n\n**Example behaviours:**\n- Acted as a mentor buddy for a new hire\n- Helped a developer understand how front-end works"
+        },
+        {
+          "title": "Technical Skills",
+          "details": "Writes correct and clean code with guidance and consistently follows stated best practices.\n\nParticipates in technical design of features with guidance.\n\nRarely makes the same mistake twice, begins to focus on attaining expertise in one or more areas.\n\nLearns quickly and makes steady progress without the need for constant significant feedback from more senior engineers.\n\nAble to identify and communicate problems with technology, and investigate potential causes.\n\n**Example behaviours:**\n- Investigated flakey tests on Jenkins, and shared investigation results\n- Extracted shared functionality into its own component\n- Increased test coverage"
+        },
+        {
+          "title": "Communication",
+          "details": "Communicates effectively with non-technical peers, able to present their work to the wider company.\n\n**Example behaviours:**\n- Delivered a Show and Tell presentation\n- Acted as communicator during a support issue and updated appropriate stakeholders in a timely manner"
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Displays empathy towards the users of our products.\n\n**Example behaviours:**\n- Voiced a concern about an existing bug that affects a large number of users\n- Able to not panic during a user-facing support issue and identify the failing part of the stack, working with others to fix it"
+        },
+        {
+          "title": "Delivery",
+          "details": "Able to own small-to-medium features from technical design through completion.\n\nCapable of prioritizing tasks. Avoids getting caught up in unimportant details and endless \"bikeshedding\".\n\nCapable of providing on-call support for their area including systems that they are not familiar with.\n\n**Example behaviours:**\n- Shipped a medium platform feature without any support\n- Correctly estimated the amount of time a new GraphQL resolver would take to implement"
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Able to ask questions/seek clarity on what the product/sales team is doing and why.\n\n**Example behaviours:**\n- Raised a concern about the team's goals\n- Asked the team PM for clarification on why a particular piece of work had been prioritised"
+        }
+      ]
+    },
+    {
+      "id": "senior-software-developer-1",
+      "title": "Senior Software Developer (1)",
+      "description": "A Senior Software Developer (1) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They support and lead the technical direction in their team, and can communicate future plans and direction to technical and non-technical people.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Able to identify problems with the product team and process, investigate potential causes, and propose solutions/next steps.\n\nAble to identify team and process areas that require ownership/improvement.\n\n**Example behaviours:**\n- Suggested a new way for team to collaborate\n- Started and ran UI design meetup"
+        },
+        {
+          "title": "Mentorship",
+          "details": "Able to deliver constructive, actionable feedback in an empathetic way.\n\n**Example behaviours:**\n- Suggested improvements empathetically during a code review\n- Shared a blog post with a colleague to help them with a problem\n- Identified when it would be more valuable for someone else to pick up a task (e.g. for educational purposes) instead of doing it themselves"
+        },
+        {
+          "title": "Technical Skills",
+          "details": "Large amount of experience in multiple areas.\n\nAble to identify and communicate problems with technology, investigate potential causes, and propose solutions/next steps.\n\nAble to suggest improvements to technology and tools, investigate implementations and propose next steps.\n\nAble to identify tech areas that require ownership/improvement.\n\nLeaves things better than they found them.\n\n**Example behaviours:**\n- Investigated adding Jest to front-end, and shared results with the team\n- Refactored a module in a service before adding functionality to it to make it more testable\n- Took ownership of the support process"
+        },
+        {
+          "title": "Communication",
+          "details": "Able to explain their work to the wider company, including to a nontechnical audience.\n\nPractises active listening.\n\n**Example behaviours:**\n- Wrote a change note explaining the impact of a technical change\n- Wrote a detailed and concise platform update email\n- Listened to all points of view during a discussion without interrupting anyone"
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Nurtures empathy and no-blame culture in their  team.\n\n**Example behaviours:**\n- Suggested how we can improve a process in the aftermath of a issue instead of identifying whose fault it was\n- Understood the context for a certain piece of technical debt instead of apportioning blame"
+        },
+        {
+          "title": "Delivery",
+          "details": "Able to deliver medium/large tasks that span multiple systems with support from peers.\n\nAble to estimate delivery of work, and proactively inform the team when work is likely to be delayed.\n\nAble to question and push back on work that is not valuable for the software team.\n\nAble to effectively prioritise own workload and focus across many streams of work.\n\n**Example behaviours:**\n- Shipped a new microservice with support from colleagues\n- Broke a large piece of work into smaller individual units that could be parallelised"
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Able to understand company goals, ask questions, challenge company goals.\n\nSeek clarity on what the company is doing and why.\n\n**Example behaviours:**\n- Asked a question about next quarter's goals at a company meeting\n- Understand company's goals in a 1:1 with manager\n- Able to clearly explain company goals to others in the team"
+        }
+      ]
+    },
+    {
+      "id": "senior-software-developer-2",
+      "title": "Senior Software Developer (2)",
+      "description": "A Senior Software Developer (2) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They actively coach and mentor developers in their team, and are able to identify and resolve issues with technology and product processes.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Able to identify problems with the product team and process, investigate potential causes, implement solutions/next steps, and proactively inform the right people of the change.\n\n**Example behaviours:**\n- Implemented a new bug-tracking process"
+        },
+        {
+          "title": "Mentorship",
+          "details": "Actively coach/mentor junior members of the team.\n\nActively works to share information with the team, e.g. best practices, technical approaches (avoiding silos).\n\n**Example behaviours:**\n- Prepared and delivered a presentation on Git best practices\n- Introduced a short presentation on JavaScript best practices as part of onboarding"
+        },
+        {
+          "title": "Technical Skills",
+          "details": "Keeps up with industry best practices.\n\nEnables other developers to work more effectively.\n\nAble to identify and communicate problems with technology,investigate potential causes, propose solutions/next steps, and proactively inform the team of changes.\n\nAble to investigate improvements to technology and tools and plan implementations.\n\n**Example behaviours:**\n- Made a plan to add Jest to stack, shared with the Architects for feedback, worked with the team to roll-out\n- Shared results migrating to Webpack\n- Wrote and published the account GraphQL components"
+        },
+        {
+          "title": "Communication",
+          "details": "Can explain the impact of their team's work to non-technical stakeholders.\n\n**Example behaviours:**\n- Delivered a presentation about a technical migration at a company meeting\n- Wrote a wiki post on the software group wiki"
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Identifies morale issues in team, and works with team members to address or seeks support in doing so.\n\n**Example behaviours:**\n- Diffused tension between two participants in a retrospective"
+        },
+        {
+          "title": "Delivery",
+          "details": "Able to deliver large tasks that touch multiple systems, working individually when required.\n\nAble to estimate delivery of work, proactively inform the team when work is likely to be delayed, and suggest sensible workarounds/next steps to mitigate impact of delayed work.\n\n**Example behaviours:**\n- Reduced the scope of a feature in order to cut down development time\n- Planned and executed a database migration that required downtime, informed the right people about it and sought the right support"
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Able to communicate/explain and advocate team's goals to developers in the team.\n\n**Example behaviours:**\n- Clarified to a developer on the team why a particular piece of work was valuable\n- Encouraged developers on the team to think about their work in terms of impact on the teams goals"
+        }
+      ]
+    },
+    {
+      "id": "technical-lead",
+      "title": "Technical Lead",
+      "description": "A Technical Lead represents the technology aspect of a product team, leading the technical direction, guiding developers, and communicating team progress alongside the Product Manager. Technical Leads have a large amount of technical experience working across multiple systems as well as great communication skills. They help keep the team focused and delivering value.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Able to identify problems with the product team and process, and encourage developers to own investigations and proposals for fixes.\n\nAble to support and lead technical direction in a team.\n\n**Example behaviours:**\n- Ran a project kick-off meeting"
+        },
+        {
+          "title": "Mentorship",
+          "details": "Actively mentors developers, identifying areas for focus and improvement.\n\nCoaches developers to answers for their questions/problems.\n\n**Example behaviours:**\n- Did a workshop on how web application service works\n- Worked with a developer to organise a programming session to remove an information silo"
+        },
+        {
+          "title": "Technical Skills",
+          "details": "Keeps up with industry best practices.\n\nUnderstands the impact of technology choices on the team.\n\nAble to identify problems with and improvements to technology and tools.\n\nEncourages developers to own investigations and proposals for fixes and improvements.\n\n**Example behaviours:**\n- Researched and chose a technology for the new product feature"
+        },
+        {
+          "title": "Communication",
+          "details": "Can explain the impact of their product team's work to non-technical stakeholders.\n\nCan explain the team's goals to their team in an engaging way.\n\n**Example behaviours:**\n- Delivered a presentation about a technical migration at a company meeting"
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Able to read the morale of their product team and respond to their needs.\n\nWorks to actively improve morale in the product teams.\n\n**Example behaviours:**\n- Diffused tension between two participants in a retrospective\n- Got the team excited about a potentially boring piece of work"
+        },
+        {
+          "title": "Delivery",
+          "details": "Able to estimate delivery of work across the product team, proactively informing the stakeholders on progress.\n\nEffectively manages deliverables for the team, ensuring the prioritised work is planned and valuable/aligned with our goals.\n\nActively works to remove distractions and low impact work from the software team.\n\n**Example behaviours:**\n- Delegated a task in order to focus on unblocking the developers"
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Understand and communicate the goals across product teams, and how they contribute to the company's success.\n\nWorks to make sure developers understand the team and company's goals.\n\nHelp shape product team goals to ensure they're delivering value for the business.\n\n**Example behaviours:**\n- Worked with PM to pick a feasible metric for the quarter\n- Had a 1:1 with a developer and gave them the context behind the quarterly goal"
+        }
+      ]
+    },
+    {
+      "id": "architect",
+      "title": "Architect",
+      "description": "An Architect is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Architects proactively work with the team to identify areas for technical improvements and action them.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Able to identify problems with the product team and process, investigate potential causes, work with the team to propose solutions/next steps, and make sure the fixes are prioritised and completed."
+        },
+        {
+          "title": "Mentorship",
+          "details": "Mentors groups of peers.\n\nCoaches senior technologists in the team (e.g. Technical Leads)."
+        },
+        {
+          "title": "Technical Skills",
+          "details": "Expert in a domain and understands the impact of technology choices on the company.\n\nSolid understanding of entire technology ecosystem, and domain experts for different areas.\n\nAble to identify problems with technology, investigate potential causes, work with the team to propose solutions/next steps, and make sure the fixes are prioritised and completed.\n\n**Example behaviours:**\n- Planned and executed timestamp encoding and database migration"
+        },
+        {
+          "title": "Communication",
+          "details": "Proactively communicate future plans and direction to technical and nontechnical people across teams.\n\nWork with product teams to help them understand how our software architecture supports the team's business goals.\n\n**Example behaviours:**\n- Created a detailed document outlining a change that we needed to make to our architecture, and delivered presentations to the software team and wider team to explain the business need"
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Detects and responds to the needs of teams and reports."
+        },
+        {
+          "title": "Delivery",
+          "details": "Identifies areas where major work needs to be done in order to support teams current or future goals.\n\nAble to estimate, plan and deliver large projects using a small team.\n\n**Example behaviours:**\n- Researched and made a plan to move to a new data warehousing platform\n- Identified the weaknesses of the existing monitoring system, researched a better one, and worked with the teams to move to it"
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Understands the goals across product teams, and how they contribute to the company's success.\n\nHelp shape product team goals to ensure they're delivering value for the business, considering our technical strategy."
+        }
+      ]
+    },
+    {
+      "id": "senior-architect",
+      "title": "Senior Architect",
+      "description": "A Senior Architect is responsible for leading the Architects group. They ensure the Architects are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Able to identify problems with the product team and process, and encourage the Architects to own investigations and proposals for fixes."
+        },
+        { "title": "Mentorship", "details": "Coaches Architects." },
+        {
+          "title": "Technical Skills",
+          "details": "Expert across multiple domains.\n\nAble to identify problems with technology, and encourage the Architects to own investigations and proposals for fixes.\n\n**Example behaviours:**\n- Moved company tech stack to new infrastructure\n- Planned and executed moving to distributed architecture"
+        },
+        {
+          "title": "Communication",
+          "details": "Represent and communicate the role of the Architects, goals and priorities, deliverables, to the business."
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Detects and responds to the needs of product teams, reports, and Architects group."
+        },
+        {
+          "title": "Delivery",
+          "details": "Able to estimate, plan and deliver large projects using multiple teams."
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Work with the Architects to ensure a technical strategy exists, and has been considered as part of the planning process."
+        }
+      ]
+    },
+    {
+      "id": "engineering-manager",
+      "title": "Engineering Manager",
+      "description": "An Engineering Manager works with a number of teams, supporting their developers and processes. They are responsible for managing developers across the technology team, guiding and supporting their growth. They ensure we have the right technical skills in the team to tackle the challenges the business is solving.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Support processes across several product teams.\n\nManage and grow the technology team.\n\n**Example behaviours:**\n- Identified an information silo and worked with the teams to mitigate it\n- Found an internal talent development programme to help direct report grow"
+        },
+        {
+          "title": "Mentorship",
+          "details": "Develops new coaches and mentors in the team.\n\nCoaches direct reports, identifies areas for their progression.\n\nGuide developers across teams, supporting development of their technical and product skills.\n\nHelp grow reports and highlight areas for progression.\n\n**Example behaviours:**\n- Identified an opportunity for a team member to be mentored by another team member and worked with them to make it happen\n- Coached a developer to prepare and deliver a dev talk"
+        },
+        {
+          "title": "Technical Skills",
+          "details": "Aware of the impact tools and technology have on development team productivity and happiness.\n\nManagement skills (mentoring, coaching,development, admin, planning, etc). Understand the technical challenges of the product teams.\n\n**Example behaviours:**\n- Has weekly 1:1s with reports"
+        },
+        {
+          "title": "Communication",
+          "details": "Develops and improves communication channels between product teams.\n\nActs as a conduit between technology and other areas of the business, shielding and fielding questions where necessary.\n\n**Example behaviours:**\n- Organised and ran a weekly Technology Leadership meeting"
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Detects and responds to the needs of teams and reports.\n\nEnsures the team has a good work-life balance, and is taking enough vacation.\n\n**Example behaviours:**\n- Turned a problematic situation into an opportunity to learn and improve\n- Identified tension between two team members and took proactive steps to remove it"
+        },
+        {
+          "title": "Delivery",
+          "details": "Creates progression plans to develop careers of the technology team.\n\nEnsure the technology team has the right expertise, working with the ED/CTO to inform the hiring plan.\n\nResponsible for the technical hiring process.\n\nEvangelises the work of the technology team, internally to other areas, and externally.\n\n**Example behaviours:**\n- Advertise open tech roles, review CVs, interview candidates, and run debrief sessions\n- Ensure the team publishes a update about our latest software team initiative/achievement"
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Able to question and contribute to company goals.\n\nUnderstand and help to drive how product teams and reports deliver business value."
+        }
+      ]
+    },
+    {
+      "id": "engineering-director",
+      "title": "Engineering Director",
+      "description": "An Engineering Director works across the technology team, managing managers and developing future leaders in the team. The Engineering Director identifies areas of focus for the technology team and their processes. They represent the software team to the rest of the organisation, and help shape the team's strategy.",
+      "skills": [
+        {
+          "title": "Leadership",
+          "details": "Ability to identify and work with the team to fix problems with software team processes.\n\nSupport processes across several product teams.\n\nManage, grow, and help lead the technology team.\n\n**Example behaviours:**\n- Develop a quarterly peer review process"
+        },
+        {
+          "title": "Mentorship",
+          "details": "Creates ways for people to mentor each other.\n\nGuide developers across the technology team to solutions, supporting development of their technical and product skills.\n\nHelp grow reports and highlight areas for progression.\n\n**Example behaviours:**\n- Delivered a coaching workshop\n- Introduced brownbag talks and lined up speakers"
+        },
+        {
+          "title": "Technical Skills",
+          "details": "Management skills (mentoring, coaching, development, admin, planning, etc). Understand the technical challenges of the technology team."
+        },
+        {
+          "title": "Communication",
+          "details": "Develops and improves communication channels for the whole software team.\n\nPromotes Syft externally.\n\n**Example behaviours:**\n- Introduced the change note email and explained to the team why it's valuable\n- Gave a presentation about Syft at jobs fair"
+        },
+        {
+          "title": "Emotional Intelligence",
+          "details": "Proactively improves the morale of the engineering team.\n\n**Example behaviours:**\n- Organised a celebration of completion of a large piece of work"
+        },
+        {
+          "title": "Delivery",
+          "details": "Identifies and develops future managers/leaders in the team.\n\nOrganises the Engineering Management group, providing coaching, support, and guidance.\n\nWorks with the CTO to determine the technical strategy, considering business focus, hiring, budgets, and the current team.\n\n**Example behaviours:**\n- Identified a future engineering manager in the team and gave them the right support to become one"
+        },
+        {
+          "title": "Business Knowledge",
+          "details": "Understands and affects the role of the software team within Syft.\n\nUnderstand how the technology team and other functional teams deliver business value, and use knowledge to help shape strategy of technology team.\n\n**Example behaviours:**\n- Influenced the company strategy by voicing the needs of the engineering team during planning\n- Built a productive relationship between the technology team and the international teams"
+        }
+      ]
+    }
+  ]
+}

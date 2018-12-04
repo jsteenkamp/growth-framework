@@ -24,7 +24,7 @@ const Start = () => {
       <Box width={'66%'} my={[4]}>
         <Heading.h4 my={[2]}>Roles and Responsibilities</Heading.h4>
         <Heading.h6>
-          The framework builds on shared Developer steps, with a fork to the
+          The framework builds on shared Engineer steps, with a fork to the
           Individual Contributor and People Management steps.
         </Heading.h6>
       </Box>
@@ -33,7 +33,7 @@ const Start = () => {
           <Flex flexDirection="column">
             <Box>
               <Heading.h6 my={[2]}>
-                <strong>Developers</strong> are focused on delivering value to
+                <strong>Engineers</strong> are focused on delivering value to
                 the business, by building and maintaining software as part of
                 the tech team.
               </Heading.h6>
