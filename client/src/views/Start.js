@@ -2,17 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Flex, Page, Box, Map, Heading, Skills, Values } from '@components';
 
-const Start = () => {
-  return (
-    <Flex flexDirection="column" my={[3]} mx={[5]}>
-      <Box width={'66%'}>
-        <Heading.h3 my={[2]}>Growth Framework</Heading.h3>
-        <Heading.h6>
-          The purpose of the framework is to help you plan your software engineering career
-          and to provide a clear structure of what is expected in
-          different roles.
-        </Heading.h6>
-      </Box>
+/*
       <Box width={'66%'} my={[4]}>
         <Heading.h4 my={[2]}>Our Values</Heading.h4>
         <Heading.h6>
@@ -20,7 +10,20 @@ const Start = () => {
           values in their work, regardless of role or level.
         </Heading.h6>
       </Box>
-      <Values my={[2]} />
+     <Values my={[2]} />
+ */
+
+const Start = () => {
+  return (
+    <Flex flexDirection="column" my={[3]} mx={[5]}>
+      <Box width={'66%'}>
+        <Heading.h1 my={[2]}>Growth Framework</Heading.h1>
+        <Heading.h6>
+          The purpose of the framework is to help you plan your software engineering career
+          and to provide a clear structure of what is expected in
+          different roles.
+        </Heading.h6>
+      </Box>
       <Box width={'66%'} my={[4]}>
         <Heading.h4 my={[2]}>Roles and Responsibilities</Heading.h4>
         <Heading.h6>
@@ -71,11 +74,11 @@ const Start = () => {
           readiness to step into that role.
         </Heading.h6>
       </Box>
-      <Box my={[4]}>
+      <Box my={[2]}>
         <Heading.h4 my={[2]}>Skills</Heading.h4>
         <Heading.h6>
           Each step and responsibilities are described in the context of 7
-          different skills
+          different skills:
         </Heading.h6>
         <Skills my={[2]} />
       </Box>
