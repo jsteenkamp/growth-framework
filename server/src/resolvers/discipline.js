@@ -9,11 +9,26 @@ const dataPath = path.join(__dirname, '..', '..', 'data');
 // graphql converts payload to JSON so convert to plain object
 // todo: add try/catch for JSON parser errors
 
+const parseDataFile = (id, resolve, reject) => {
+  fs.readFile(path.join(dataPath, `${id}.json`), (err, data) => {
+    if (err) reject(err);
+    // sort role skills to match order of skills
+    const { skills, roles, ...rest } = JSON.parse(data);
+    const rolesWithOrderedSkills = roles.map(role => {
+      const orderedSkills = skills.map(skill =>
+        role.skills.find(s => s.id === skill.id)
+      );
+      return { ...role, skills: orderedSkills };
+    });
+    resolve({ ...rest, skills, roles: rolesWithOrderedSkills });
+  });
+};
+
 export default {
   JSON: GraphQLJSON,
   Query: {
     disciplines: async () => {
-      // sync version
+      // sync version - example only, best to use async
       const data = JSON.parse(
         fs.readFileSync(path.join(dataPath, 'software-engineering.json'))
       );
@@ -23,70 +38,32 @@ export default {
     },
     discipline: async (root, { id }) => {
       // async version
-      return new Promise((resolve, reject) => {
-        fs.readFile(path.join(dataPath, `${id}.json`), (err, data) => {
-          if (err) reject(err);
-          // sort role skills to match order of skills
-          const { skills, roles, ...rest } = JSON.parse(data);
-          const rolesWithOrderedSkills = roles.map(role => {
-            const orderedSkills = skills.map(skill =>
-              role.skills.find(s => s.id === skill.id)
-            );
-            return { ...role, skills: orderedSkills };
-          });
-          resolve({ ...rest, skills, roles: rolesWithOrderedSkills });
-        });
-      });
+      return new Promise((resolve, reject) =>
+        parseDataFile(id, resolve, reject)
+      );
     },
     roles: async (root, { id }) => {
       return new Promise((resolve, reject) => {
-        fs.readFile(path.join(dataPath, `${id}.json`), (err, data) => {
-          if (err) reject(err);
-          // convert to plain object and filter out roles
-          const { skills, roles } = JSON.parse(data);
-          const rolesWithOrderedSkills = roles.map(role => {
-            const orderedSkills = skills.map(skill =>
-              role.skills.find(s => s.id === skill.id)
-            );
-            return { ...role, skills: orderedSkills };
-          });
-          resolve(rolesWithOrderedSkills);
-        });
+        const parseData = data => resolve(data.roles);
+        parseDataFile(id, parseData, reject);
       });
     },
     role: async (root, { id, roleId }) => {
       return new Promise((resolve, reject) => {
-        fs.readFile(path.join(dataPath, `${id}.json`), (err, data) => {
-          if (err) reject(err);
-          // convert to plain object and filter out roles
-          const { skills, roles } = JSON.parse(data);
-          const role = roles.find(role => role.id === roleId);
-          const orderedSkills = skills.map(skill =>
-            role.skills.find(s => s.id === skill.id)
-          );
-          resolve({ ...role, skills: orderedSkills });
-        });
+        const parseData = data => resolve(data.roles.find(role => role.id === roleId));
+        parseDataFile(id, parseData, reject);
       });
     },
     skills: async (root, { id }) => {
       return new Promise((resolve, reject) => {
-        fs.readFile(path.join(dataPath, `${id}.json`), (err, data) => {
-          if (err) reject(err);
-          // convert to plain object and filter out roles
-          const { skills } = JSON.parse(data);
-          resolve(skills);
-        });
+        const parseData = data => resolve(data.skills);
+        parseDataFile(id, parseData, reject);
       });
     },
     skill: async (root, { id, skillId }) => {
       return new Promise((resolve, reject) => {
-        fs.readFile(path.join(dataPath, `${id}.json`), (err, data) => {
-          if (err) reject(err);
-          // convert to plain object and filter out roles
-          const { skills } = JSON.parse(data);
-          const skill = skills.find(skill => skill.id === skillId);
-          resolve(skill);
-        });
+        const parseData = data => resolve(data.skills.find(skill => skill.id === skillId));
+        parseDataFile(id, parseData, reject);
       });
     },
   },
