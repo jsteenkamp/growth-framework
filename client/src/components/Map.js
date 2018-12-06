@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
+import styled from 'styled-components';
 import { darken } from 'polished';
 import { Flex, Box, Spinner, MessageBox, Text, Heading } from '@components';
 import { navigate } from '@reach/router';
@@ -20,13 +21,17 @@ const queryRoles = gql`
   }
 `;
 
+const HoverBox = styled(Box)`
+  cursor: pointer;
+`;
+
 const RoleBox = ({ width = '30%', selected, role, labels }) => {
   const { id, title } = role;
-  const bg = (labels || selected === id) ? colors.dark : colors.light;
+  const bg = labels || selected === id ? colors.dark : colors.light;
   return (
     <Flex justifyContent="space-between">
       <Box />
-      <Box
+      <HoverBox
         m={[1]}
         p={[2]}
         width={width}
@@ -34,8 +39,12 @@ const RoleBox = ({ width = '30%', selected, role, labels }) => {
         bg={bg}
         onClick={() => navigate(`/role/${id}`)}
       >
-        {labels ? <Heading.h6 align="center" color={'white'}>{title}</Heading.h6> : null}
-      </Box>
+        {labels ? (
+          <Heading.h6 align="center" color={'white'}>
+            {title}
+          </Heading.h6>
+        ) : null}
+      </HoverBox>
       <Box />
     </Flex>
   );
@@ -43,28 +52,36 @@ const RoleBox = ({ width = '30%', selected, role, labels }) => {
 
 const SplitBox = ({ width = '50%', selected, roles, labels }) => {
   const bg =
-    (labels || selected === roles[0].id || selected === roles[1].id)
+    labels || selected === roles[0].id || selected === roles[1].id
       ? colors.dark
       : colors.light;
   return (
     <Flex justifyContent="space-between">
       <Box />
-      <Box m={[1]}  width={width} minHeight={16} bg={bg}>
+      <Box m={[1]} width={width} minHeight={16} bg={bg}>
         <Flex>
-          <Box
+          <HoverBox
             p={[2]}
             width={'60%'}
             onClick={() => navigate(`/role/${roles[0].id}`)}
           >
-            {labels ? <Heading.h6 align="center" color={'white'}>{roles[0].title}</Heading.h6> : null}
-          </Box>
-          <Box
+            {labels ? (
+              <Heading.h6 align="center" color={'white'}>
+                {roles[0].title}
+              </Heading.h6>
+            ) : null}
+          </HoverBox>
+          <HoverBox
             p={[2]}
             width={'40%'}
             onClick={() => navigate(`/role/${roles[1].id}`)}
           >
-            {labels ? <Heading.h6 align="center" color={'white'}>{roles[1].title}</Heading.h6> : null}
-          </Box>
+            {labels ? (
+              <Heading.h6 align="center" color={'white'}>
+                {roles[1].title}
+              </Heading.h6>
+            ) : null}
+          </HoverBox>
         </Flex>
       </Box>
       <Box />

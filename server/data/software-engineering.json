@@ -3,7 +3,7 @@
   "date": "2/12/2012",
   "author": "Johan Steenkamp",
   "version": "0.1",
-  "title": "Software Engineering",
+  "title": "Software Engineering Growth Framework",
   "description": "The purpose of this framework is to help you plan your career and to provide a clear structure of what is expected in different roles.",
   "skills": [
     {
@@ -50,37 +50,30 @@
       "skills": [
         {
           "id": "technical",
-          "title": "Technical Skills",
           "details": "Broad knowledge of core CS concepts.\n\nFocus on growing as an engineer, learning existing tools, resources and processes.\n\nSmall amount of experience in one area (application, service, domain, technology, stack, etc).\n\nAble to identify and communicate problems with technology.\n\nAble to suggest improvements to existing technology and tools.\n\n**Example behaviors:**\n\n- Added a component to software platform\n- Shipped a small feature in the web app\n- Increased test coverage\n- Found and filed a bug"
         },
         {
           "id": "gsd",
-          "title": "Get Stuff Done",
           "details": "Develops their productivity skills by learning source control, editors, the build system, and other tools as well as testing best practices.\n\nAble to deliver small/medium tasks, working individually or collaboratively.\n\n**Example behaviors:**\n\n- Shipped a small feature on time without any support\n- Refactored CSS theme removing unused styles"
         },
         {
           "id": "impact",
-          "title": "Impact",
           "details": "Developing knowledge of a single component of our architecture.\n\n**Example behaviors:**\n\n- Proactively exploring code and asking questions\n- Understanding design options and decisions\n - Presenting a tech session about a component to the team"
         },
         {
           "id": "communication",
-          "title": "Communication",
           "details": "Communicates with peers effectively and in a timely manner.\n\nAccepts feedback graciously and learns from everything they do.\n\n**Example behaviors:**\n\n- Consistently writes good commit messages and release log emails\n- Asked for help"
         },
         {
           "id": "mentorship",
-          "title": "Mentorship",
           "details": "Collaborates effectively with other engineers in the team.\n\n**Example behaviors:**\n\n- Work collaboratively with a engineer on a feature\n- Developing knowledge of a single component of our architecture"
         },
         {
           "id": "leadership",
-          "title": "Leadership",
           "details": "Exhibits Syft's core values, focuses on understanding and living these values.\n\nAble to identify and communicate problems with the product team and process.\n\n**Example behaviors:**\n\n- Raised a concern about inefficient workflow"
         },
         {
           "id": "business",
-          "title": "Business Knowledge",
           "details": "Understands product/sales team's goals, and how they impact the company.\n\nUnderstand impact of work on product/sales team and goals.\n\n**Example behaviors:**\n\n- Suggested features during a team meeting\n- Explained product team's goals to a new starter"
         }
       ]
@@ -92,37 +85,30 @@
       "skills": [
         {
           "id": "technical",
-          "title": "Technical Skills",
           "details": "Writes correct and clean code with guidance and consistently follows stated best practices.\n\nParticipates in technical design of features with guidance.\n\nRarely makes the same mistake twice, begins to focus on attaining expertise in one or more areas.\n\nLearns quickly and makes steady progress without needing feedback from more senior engineers.\n\nIdentifies and communicate problems with technology, and investigates potential causes.\n\n**Example behaviors:**\n- Investigated flakey tests on Jenkins, and shared investigation results\n- Extracted shared functionality into its own component"
         },
         {
           "id": "gsd",
-          "title": "Get Stuff Done",
           "details": "Able to own small-to-medium features from technical design through completion.\n\nCapable of prioritizing tasks. Avoids getting caught up in unimportant details and endless \"bikeshedding\".\n\n**Example behaviors:**\n- Writes fettuccine code and favors duplication over the wrong abstraction\n- Correctly estimated the amount of time a new GraphQL resolver would take to implement\n- Shipped a medium platform feature without any support"
         },
         {
           "id": "impact",
-          "title": "Impact",
           "details": "Self-sufficient in at least one large area of the codebase (SSP Server, Instrument, Client) with a high-level understanding of other components.\n\nCapable of providing on-call support for their area including systems that they are not familiar with.\n\n**Example behaviors:**\n- Voiced a concern about an existing bug that affects a large number of users\n- Able to not panic during a user-facing support issue and identify the failing part of the stack, working with others to fix it"
         },
         {
           "id": "communication",
-          "title": "Communication",
           "details": "Communicates effectively with non-technical peers, able to present their work to the wider company.\n\nGives timely, helpful feedback to peers and managers.\n\nSolicits feedback from others and is eager to find ways to improve.\n\n**Example behaviors:**\n- Delivered a Show and Tell presentation\n- Acted as communicator during a support issue and updated appropriate stakeholders in a timely manner"
         },
         {
           "id": "mentorship",
-          "title": "Mentorship",
           "details": "Supports new team members, mentors peers in an ad-hoc way.\n\nAble to mentor new team member.\n\n**Example behaviors:**\n- Acted as a mentor buddy for a new hire\n- Helped a engineer understand how front-end works"
         },
         {
           "id": "leadership",
-          "title": "Leadership",
           "details": "Able to identify problems with the team and process, and investigate potential causes.\n\nCommunicates assumptions and gets clarification on tasks up front to minimize the need for rework.\n\nUnderstands how their work fits in to the larger project and identifies problems with requirements.\n\nOccasionally takes a lead in team processes.\n\n**Example behaviors:**\n- Facilitated a team retrospective\n- Led a feature kick-off"
         },
         {
           "id": "business",
-          "title": "Business Knowledge",
           "details": "Able to ask questions/seek clarity on what the product/sales team is doing and why.\n\n**Example behaviors:**\n- Raised a concern about the team's goals\n- Asked the team PM for clarification on why a particular piece of work had been prioritised"
         }
       ]
@@ -134,37 +120,30 @@
       "skills": [
         {
           "id": "technical",
-          "title": "Technical Skills",
           "details": "Large amount of experience in multiple areas.\n\nUnderstands and makes well-reasoned design decisions and trade-offs.\n\nAble to identify tech areas that require ownership/improvement.\n\nDemonstrates knowledge of industry trends.\n\nLeaves things better than they found them.\n\n**Example behaviors:**\n- Investigated adding Jest to front-end, and shared results with the team\n- Refactored a module in a service before adding functionality to it to make it more testable\n- Took ownership of the support process"
         },
         {
           "id": "gsd",
-          "title": "Get Stuff Done",
           "details": "Able to deliver medium/large tasks that span multiple systems with support from peers.\n\nTakes the initiative to fix issues before being assigned them.\n\nSeeks empirical evidence through proof of concepts, tests and external research.\n\nAble to effectively prioritise own workload and focus across many streams of work.\n\n**Example behaviors:**\n- Shipped a new microservice with support from colleagues\n- Broke a large piece of work into smaller individual units that could be parallelised"
         },
         {
           "id": "impact",
-          "title": "Impact",
           "details": "Partners with sales and production and drives requirements that take into account all parties' needs.\n\nEmpathetic with the people who use the software they are producing and uses that empathy to guide decision-making.\n\nIdentifies problems/risks of own work and others.\n\n**Example behaviors:**\n- Suggested how we can improve a process in the aftermath of a issue instead of identifying whose fault it was\n- Understood the context for a certain piece of technical debt instead of apportioning blame"
         },
         {
           "id": "communication",
-          "title": "Communication",
           "details": "Able to identify and communicate problems with technology and propose solutions/next steps.\n\nAble to explain their work to the wider company, including to a nontechnical audience.\n\nPractises active listening.\n\n**Example behaviors:**\n- Wrote a change note explaining the impact of a technical change\n- Wrote a detailed and concise platform update email\n- Listened to all points of view during a discussion without interrupting anyone"
         },
         {
           "id": "mentorship",
-          "title": "Mentorship",
           "details": "Able to deliver constructive, actionable feedback in an empathetic way.\n\n**Example behaviors:**\n- Suggested improvements empathetically during a code review\n- Shared a blog post with a colleague to help them with a problem\n- Identified when it would be more valuable for someone else to pick up a task (e.g. for educational purposes) instead of doing it themselves"
         },
         {
           "id": "leadership",
-          "title": "Leadership",
           "details": "Able to identify problems with the product team and process, investigate potential causes, and propose solutions/next steps.\n\nAble to identify team and process areas that require ownership/improvement.\n\n**Example behaviors:**\n- Suggested a new way for team to collaborate\n- Started and ran UI design meetup"
         },
         {
           "id": "business",
-          "title": "Business Knowledge",
           "details": "Able to understand company goals, ask questions, challenge company goals.\n\nSeek clarity on what the company is doing and why.\n\n**Example behaviors:**\n- Asked a question about next quarter's goals at a company meeting\n- Understand company's goals in a 1:1 with manager\n- Able to clearly explain company goals to others in the team"
         }
       ]
@@ -176,37 +155,30 @@
       "skills": [
         {
           "id": "technical",
-          "title": "Technical Skills",
           "details": "Go-to expert in one area of the codebase.\n\nKeeps up with industry best practices.\n\nEnables other engineers to work more effectively.\n\nUnderstands the broad architecture of the entire system.\n\nProvides technical advice and weighs in on technical decisions that impact other teams or the company at large.\n\nResearches and proposes new technologies.\n\n**Example behaviors:**\n- Made a plan to add Jest to stack, got feedback from Architects, worked with the team to roll-out\n- Shared results migrating to Webpack"
         },
         {
           "id": "gsd",
-          "title": "Get Stuff Done",
           "details": "Scopes and stages work into well- defined milestones to avoid a monolithic deliverable.\n\nRegularly delivers software on-time and is constantly working to make accurate estimates and deliver on those estimates.\n\nAble to estimate delivery, proactively inform the team when delays likely, and suggest sensible workarounds/next steps to mitigate impact.\n\nOwns the technical testing and performance plan for their projects.\n\n**Example behaviors:**\n- Reduced the scope of a feature in order to cut down development time\n- Planned and executed a database migration that required downtime, informed the right people about it and sought the right support"
         },
         {
           "id": "impact",
-          "title": "Impact",
           "details": "Takes initiative to identify and solve important problems, coordinating with others on cross-cutting technical issues.\n\nSets direction at the project/service level and consistently influences decision- making at the business area/value level.\n\nIdenitifies and proactively tackles technical debt before it grows into debt that requires significant up-front work to resolve.\n\n**Example behaviors:**\n- Identified time stamp error and assessed impact, fixed issue, tested and planned rolled-out with support team"
         },
         {
           "id": "communication",
-          "title": "Communication",
           "details": "Makes others better through code reviews, thorough documentation, technical guidance, and mentoring, or serving as a Tech Lead on a project.\n\nIdentifies and proposes strategies around technical problems affecting their team, communicates standards and gets buy-in on solutions.\n\nCan explain the impact of their team's work to non-technical stakeholders.\n\n**Example behaviors:**\n- Delivered a presentation about a technical migration at a company meeting\n- Wrote a technical article on the software group blog"
         },
         {
           "id": "mentorship",
-          "title": "Mentorship",
           "details": "Actively coach/mentor junior members of the team.\n\nActively works to share information with the team, e.g. best practices, technical approaches (avoiding silos).\n\n**Example behaviors:**\n- Prepared and delivered a presentation on Git best practices\n- Introduced a short presentation on JavaScript best practices as part of onboarding"
         },
         {
           "id": "leadership",
-          "title": "Leadership",
           "details": "Participates in Architectural Review and provides feedback on projects outside of their core area.\n\nUnderstands the tradeoffs between technical, analytical and product needs and leads to solutions that take all of these needs into account.\n\nAble to identify problems with the product team and process, investigate potential causes, implement solutions/next steps, and proactively inform the right people of the change.\n\n**Example behaviors:**\n- Implemented a new bug-tracking process"
         },
         {
           "id": "business",
-          "title": "Business Knowledge",
           "details": "Able to communicate/explain and advocate team's goals to engineers in the team.\n\n**Example behaviors:**\n- Clarified to a engineer on the team why a particular piece of work was valuable\n- Encouraged engineers on the team to think about their work in terms of impact on the teams goals"
         }
       ]
@@ -218,37 +190,30 @@
       "skills": [
         {
           "id": "technical",
-          "title": "Technical Skills",
           "details": "Keeps up with industry best practices.\n\nUnderstands the impact of technology choices on the team.\n\nAble to identify problems with and improvements to technology and tools.\n\nEncourages engineers to own investigations and proposals for fixes and improvements.\n\n**Example behaviors:**\n- Researched and chose a technology for the new product feature"
         },
         {
           "id": "gsd",
-          "title": "Get Stuff Done",
           "details": "Scales themselves by delegating effectively.\n\nEnsures tasks are completed as specified without micromanaging.\n\nAble to estimate delivery of work across the product team, proactively informing the stakeholders on progress.\n\nEffectively manages deliverables for the team, ensuring the prioritised work is planned and valuable/aligned with our goals.\n\nActively works to remove distractions and low impact work from the software team.\n\n**Example behaviors:**\n- Delegated a task in order to focus on unblocking the engineers"
         },
         {
           "id": "impact",
-          "title": "Impact",
           "details": "Focused on and responsible for the team's productivity and collective impact.\n\nAble to read the morale of their product team and respond to their needs.\n\nWorks to actively improve morale in the product teams.\n\n**Example behaviors:**\n- Diffused tension between two participants in a retrospective\n- Got the team excited about a potentially boring piece of work"
         },
         {
           "id": "communication",
-          "title": "Communication",
           "details": "Can explain the impact of their product team's work to non-technical stakeholders.\n\nCan explain the team's goals to their team in an engaging way.\n\n**Example behaviors:**\n- Delivered a presentation about a technical migration at a company meeting"
         },
         {
           "id": "mentorship",
-          "title": "Mentorship",
           "details": "Actively mentors engineers, identifying areas for focus and improvement.\n\nContributes to the career development of others.\n\nCoaches engineers to answers for their questions/problems.\n\n**Example behaviors:**\n- Did a workshop on how web application service works\n- Worked with a engineer to organise a programming session to remove an information silo"
         },
         {
           "id": "leadership",
-          "title": "Leadership",
           "details": "Makes independent decisions for the team.\n\nWhen the tech lead is acting as the reporting manager to others, the tech lead is expected to meet regularly with their direct reports, provide frequent feedback on their work, help the individuals set goals and work with the engineering lead or director to ensure employee growth and retention goals.\n\nAble to identify problems with the product team and process, and encourage engineers to own investigations and proposals for fixes.\n\nAble to support and lead technical direction in a team.\n\n**Example behaviors:**\n- Ran a project kick-off meeting"
         },
         {
           "id": "business",
-          "title": "Business Knowledge",
           "details": "Understand and communicate the goals across product teams, and how they contribute to the company's success.\n\nWorks to make sure engineers understand the team and company's goals.\n\nHelp shape product team goals to ensure they're delivering value for the business.\n\n**Example behaviors:**\n- Worked with PM to pick a feasible metric for the quarter\n- Had a 1:1 with a engineer and gave them the context behind the quarterly goal"
         }
       ]
@@ -260,37 +225,30 @@
       "skills": [
         {
           "id": "technical",
-          "title": "Technical Skills",
           "details": "Expert in a domain and understands the impact of technology choices on the company.\n\nSought out for technical guidance.\n\nAnticipates technical issues at the product level and makes architectural and design decisions to avoid them.\n\nOwner of and expert on large sections of our codebase.\n\nA record of creating sweeping improvements in stability, performance, and scalability across major business-critical systems.\n\n**Example behaviors:**\n- Planned and executed timestamp encoding and database migration"
         },
         {
           "id": "gsd",
-          "title": "Get Stuff Done",
           "details": "Recognized as a prolific contributor to core and side projects.\n\nConsistently able to reduce the complexity of projects, services, and processes in order to get more done with less work.\n\nIdentifies areas where major work needs to be done in order to support teams current or future goals.\n\nAble to estimate, plan and deliver large projects using a small team.\n\n**Example behaviors:**\n- Researched and made a plan to move to a new data warehousing platform\n- Identified the weaknesses of the existing monitoring system, researched a better one, and worked with the teams migrate"
         },
         {
           "id": "impact",
-          "title": "Impact",
           "details": "Shapes broad architecture.\n\nShips multiple large services, complex libraries or major pieces of infrastructure.\n\nHas made an obvious positive impact on the entire company's technical trajectory.\n\nDetects and responds to the needs of teams and reports."
         },
         {
           "id": "communication",
-          "title": "Communication",
           "details": "Listens and guides debates to help reach a consensus. Once a decision is made, clearly communicates and backs that decision.\n\nProactively communicate future plans and direction to technical and nontechnical people across teams.\n\nWork with product teams to help them understand how our software architecture supports the team's business goals.\n\n**Example behaviors:**\n- Created a detailed document outlining a change that we needed to make to our architecture, and delivered presentations to the software team and wider team to explain the business need"
         },
         {
           "id": "mentorship",
-          "title": "Mentorship",
           "details": "Mentors groups of peers.\n\nCoaches senior engineers and technical leads in the team."
         },
         {
           "id": "leadership",
-          "title": "Leadership",
           "details": "Works on high leverage activities.\n\nMultiplies the effectiveness of others by facilitating cross-team work.\n\nSets short to medium-term strategic technical direction, able to look ahead 6- 12 months and identify the areas of greatest need and create plans to improve them.\n\nAble to identify problems with the product team and process, investigate potential causes, work with the team to propose solutions/next steps, and make sure the fixes are prioritised and completed."
         },
         {
           "id": "business",
-          "title": "Business Knowledge",
           "details": "Understands the goals across product teams, and how they contribute to the company's success.\n\nHelp shape product team goals to ensure they're delivering value for the business, considering our technical strategy."
         }
       ]
@@ -302,37 +260,30 @@
       "skills": [
         {
           "id": "technical",
-          "title": "Technical Skills",
           "details": "Setting technical direction.\n\nAnticipates broad technical change and ensures Syft is always ahead of the curve.\n\nAble to recognize and make trade-offs with respect to the whole system.\n\nUnderstands deeply the entire architecure for a major part of our business and is able to articulate clearly the scaling and reliability limits of that area.\n\nExpert across multiple domains.\n\nAble to identify problems with technology, and encourage the Architects to own investigations and proposals for fixes.\n\n**Example behaviors:**\n- Moved company tech stack to new infrastructure\n- Planned and executed moving to distributed architecture"
         },
         {
           "id": "gsd",
-          "title": "Get Stuff Done",
           "details": "Consistently delivers large systems involving contribution from one or more teams on time at a high level of quality.\n\nQuickly breaks down complex problems into possible solutions (options), knowns, and unknowns, in order to get to solid resolutions faster.\n\nCapable of debugging the most complex problems that the team encounters.\n\nAble to estimate, plan and deliver large projects using multiple teams."
         },
         {
           "id": "impact",
-          "title": "Impact",
           "details": "Identifies technology strategic growth opportunities that enable Syft to grow as a business.\n\nPlays a key role in developing multi-year technology strategy for complete and critical areas of the business that encompass multiple systems and teams.\n\nDecisions have a direct impact on the long-term success or failure of Syft.\n\nCreates architecture that enables many potential futures without knowing exactly what the future is.\n\nDetects and responds to the needs of product teams, reports, and Architects group."
         },
         {
           "id": "communication",
-          "title": "Communication",
           "details": "Communicates multi-year technical strategy and leads the team in identifying future strategic areas for development.\n\nLeads the conversations internally about the direction of major areas of the technology, drives wide-team consensus to the adoption of this direction, and uses this direction to inspire engineers.\n\nCommunicates the awesomeness of the Syft tech community externally.\n\nIdentifiesareasthatSyftcanshare effectively with the outside world and guides the creation of content and communication around these areas.\n\nRepresent and communicate the role of the Architects, goals and priorities, deliverables, to the business."
         },
         {
           "id": "mentorship",
-          "title": "Mentorship",
           "details": "Coaches across the business."
         },
         {
           "id": "leadership",
-          "title": "Leadership",
           "details": "Seen as a role model and mentor to every technical member of the team.\n\nPrimarily acts as a multiplier through high leverage activities such as by building systems, authoring tools, or introducing standards, policies, and patterns that raise the level of productivity of the entire organization.\n\nAble to identify problems with the product team and process, and encourage the Architects to own investigations and proposals for fixes."
         },
         {
           "id": "business",
-          "title": "Business Knowledge",
           "details": "Work with the Architects to ensure a technical strategy exists, and has been considered as part of the planning process."
         }
       ]
@@ -344,36 +295,30 @@
       "skills": [
         {
           "id": "technical",
-          "title": "Technical Skills",
           "details": "Understands and practices lean/agile software development and management.\n\nProduces quality metrics on the SDLC process.\n\nAware of the impact tools and technology have on development team productivity and happiness.\n\nManagement skills (mentoring, coaching,development, admin, planning, etc). Understand the technical challenges of the product teams.\n\n**Example behaviors:**\n- Has weekly 1:1s with reports"
         },
         {
-          "title": "Get stuff Done",
+          "id": "gsd",
           "details": "Proactive in identifying and clearing roadblocks for the team.\n\nCreates progression plans to develop careers of the technology team.\n\nEnsure the technology team has the right expertise, working with the ED/CTO to inform the hiring plan.\n\nResponsible for the technical hiring process.\n\nEvangelises the work of the technology team, internally to other areas, and externally.\n\n**Example behaviors:**\n- Advertise open tech roles, review CVs, interview candidates, and run debrief sessions\n- Ensure the team publishes a update about our latest software team initiative/achievement"
         },
         {
           "id": "impact",
-          "title": "Impact",
           "details": "Excels at getting the team to focus on the highest-impact projects.\n\nAble to lead recruiting efforts and determine headcount for their team.\n\nPartners effectively with product to manage scope and delierables for the technical side of the product roadmap.\n\nDetects and responds to the needs of teams and reports.\n\nEnsures the team has a good work-life balance, and is taking enough vacation.\n\n**Example behaviors:**\n- Turned a problematic situation into an opportunity to learn and improve\n- Identified tension between two team members and took proactive steps to remove it"
         },
         {
           "id": "communication",
-          "title": "Communication",
           "details": "Communicates context to the team and surfaces requirements to upper management.\n\nDevelops and improves communication channels between product teams.\n\nCommunicates timeline, scope and technical concerns to relevant teams.\n\nActs as a conduit between technology and other areas of the business, shielding and fielding questions where necessary.\n\n**Example behaviors:**\n- Organised and ran a weekly Technology Leadership meeting"
         },
         {
           "id": "mentorship",
-          "title": "Mentorship",
           "details": "Develops new coaches and mentors in the team.\n\nCoaches direct reports, identifies areas for their progression.\n\nGuide engineers across teams, supporting development of their technical and product skills.\n\nHelp grow reports and highlight areas for progression.\n\n**Example behaviors:**\n- Identified an opportunity for a team member to be mentored by another team member and worked with them to make it happen\n- Coached a engineer to prepare and deliver a dev talk"
         },
         {
           "id": "leadership",
-          "title": "Leadership",
           "details": "Manages independently.\n\nSets clear expectations for team members.\n\nSupport processes across several product teams.\n\nManage and grow the technology team.\n\nAble to identify areas of strategic technical debt and provide cost/benefit analysis for eliminating this debt and suggested timelines for how to prioritize it.\n\nLeads delivery of major initiatives on clear timelines.\n\n**Example behaviors:**\n- Identified an information silo and worked with the teams to mitigate it\n- Found an internal talent development programme to help direct report grow"
         },
         {
           "id": "business",
-          "title": "Business Knowledge",
           "details": "Able to question and contribute to company goals.\n\nUnderstand and help to drive how product teams and reports deliver business value."
         }
       ]
@@ -385,37 +330,30 @@
       "skills": [
         {
           "id": "technical",
-          "title": "Technical Skills",
           "details": "Ensures their organization has appropriately high technical competence and strives for excellence.\n\nResearches new technologies to stay abreast of industry trends and standards.\n\nContributes to architecture by asking the right questions to ensure architecture matches business needs for the area.\n\nCapable of jumping in to help debug and triage critical systems as needed.\n\nManagement skills (mentoring, coaching, development, admin, planning, etc). Understand the technical challenges of the technology team."
         },
         {
           "id": "gsd",
-          "title": "Get Stuff Done",
           "details": "Develops and deploys new strategies for building a high velocity, high performance development organization in line with our emerging customer needs.\n\nSupports technical innovation and leads the creation, continual refinement, and active enforcement of our development standards so that our technology can be leveraged as a sustainable competitive advantage.\n\nParticipates in staff recruitment, performance assessments, training, and career development.\n\nResponsible for headcount planning and personnel evolution for multiple engineering areas.\n\nAs necessary, the director manages vendor and external relationships, and participates in the budgeting process."
         },
         {
           "id": "impact",
-          "title": "Impact",
           "details": "Provides leadership to software development managers, addresses technical, resource and personnel issues.\n\nBuilds and supports high functioning, motivated teams.\n\nCreates an organization that understands how to balance technical debt vs business goals.\n\nProactively improves the morale of the engineering team.\n\n**Example behaviors:**\n- Organised a celebration of completion of a large piece of work"
         },
         {
           "id": "communication",
-          "title": "Communication",
           "details": "Collaborates across functional areas to define,prioritize and ensure implementation of specific innovations to improve technical functionality in support of business needs, efficiencies and revenue.\n\nAble to communicate technical concepts to business stakeholders as well as communicate business objectives to the technical team.\n\nDevelops and improves communication channels for the whole software team.\n\nPromotes Syft externally.\n\nOwns the performance setting and review process for teams under their oversight.\n\n**Example behaviors:**\n- Gave a presentation about Syft at jobs fair"
         },
         {
           "id": "mentorship",
-          "title": "Mentorship",
           "details": "Proactively nurtures the talent of the senior staff in their areas.\n\nCreates ways for people to mentor each other.\n\nGuide engineers across the technology team to solutions, supporting development of their technical and product skills.\n\nHelp grow reports and highlight areas for progression.\n\n**Example behaviors:**\n- Delivered a coaching workshop\n- Introduced brownbag talks and lined up speakers"
         },
         {
           "id": "leadership",
-          "title": "Leadership",
           "details": "Ability to identify and work with the team to fix problems with software team processes.\n\nSupport processes across several product teams.\n\nManage, grow, and help lead the technology team.\n\n**Example behaviors:**\n- Develop a quarterly peer review process"
         },
         {
           "id": "business",
-          "title": "Business Knowledge",
           "details": "Understands and affects the role of the software team within Syft.\n\nUnderstand how the technology team and other functional teams deliver business value, and use knowledge to help shape strategy of technology team.\n\n**Example behaviors:**\n- Influenced the company strategy by voicing the needs of the engineering team during planning\n- Built a productive relationship between the technology team and the international teams"
         }
       ]

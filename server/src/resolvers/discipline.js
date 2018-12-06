@@ -12,12 +12,13 @@ const dataPath = path.join(__dirname, '..', '..', 'data');
 const parseDataFile = (id, resolve, reject) => {
   fs.readFile(path.join(dataPath, `${id}.json`), (err, data) => {
     if (err) reject(err);
-    // sort role skills to match order of skills
+    // sort role skills to match order of skills and add skill title
     const { skills, roles, ...rest } = JSON.parse(data);
     const rolesWithOrderedSkills = roles.map(role => {
-      const orderedSkills = skills.map(skill =>
-        role.skills.find(s => s.id === skill.id)
-      );
+      const orderedSkills = skills.map(({ id, title }) => ({
+        ...role.skills.find(s => s.id === id),
+        title,
+      }));
       return { ...role, skills: orderedSkills };
     });
     resolve({ ...rest, skills, roles: rolesWithOrderedSkills });
@@ -50,7 +51,8 @@ export default {
     },
     role: async (root, { id, roleId }) => {
       return new Promise((resolve, reject) => {
-        const parseData = data => resolve(data.roles.find(role => role.id === roleId));
+        const parseData = data =>
+          resolve(data.roles.find(role => role.id === roleId));
         parseDataFile(id, parseData, reject);
       });
     },
@@ -62,7 +64,8 @@ export default {
     },
     skill: async (root, { id, skillId }) => {
       return new Promise((resolve, reject) => {
-        const parseData = data => resolve(data.skills.find(skill => skill.id === skillId));
+        const parseData = data =>
+          resolve(data.skills.find(skill => skill.id === skillId));
         parseDataFile(id, parseData, reject);
       });
     },

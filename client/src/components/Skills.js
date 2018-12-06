@@ -4,11 +4,6 @@ import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import { Flex, Card, MessageBox, Spinner } from '@components';
 
-const colors = {
-  dark: 'lightskyblue',
-  light: 'aliceblue',
-};
-
 const querySkills = gql`
   query Skills($id: String) {
     skills(id: $id) {
