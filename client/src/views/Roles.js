@@ -25,13 +25,7 @@ const Roles = ({ id }) => (
         return <MessageBox title="Error">Check console for details</MessageBox>;
       }
 
-      // todo: pass in discipline and role index then no role filter required
-      let role = {};
-      data.roles.map(r => {
-        if (r.id === id) {
-          role = r;
-        }
-      });
+      const role = data.roles.find(role => role.id === id);
 
       return <Role role={role} />;
     }}

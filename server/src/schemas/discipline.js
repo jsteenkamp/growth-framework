@@ -19,6 +19,7 @@ export default gql`
     type Discipline {
         id: ID!
         title: String
+        skills: JSON
         roles: JSON
     }
     
@@ -26,6 +27,8 @@ export default gql`
         disciplines: [Discipline]
         discipline(id: String): Discipline
         roles(id: String): [Role]
+        role(id: String, roleId: String): Role
         skills(id: String): [Skill]
+        skill(id: String, skillId: String): Skill
     }
 `;
