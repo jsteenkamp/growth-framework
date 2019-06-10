@@ -219,9 +219,9 @@
       ]
     },
     {
-      "id": "architect",
-      "title": "Architect",
-      "description": "An Architect is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Architects proactively work with the team to identify areas for technical improvements and action them.",
+      "id": "principal",
+      "title": "Principal Engineer",
+      "description": "A Principal Engineer is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Principal Engineers proactively work with the team to identify areas for technical improvements and action them.",
       "skills": [
         {
           "id": "technical",
@@ -289,9 +289,9 @@
       ]
     },
     {
-      "id": "engineering-manager",
-      "title": "Engineering Manager",
-      "description": "An Engineering Manager works with a number of teams, supporting their engineers and processes. They are responsible for managing engineers across the technology team, guiding and supporting their growth. They ensure we have the right technical skills in the team to tackle the challenges the business is solving.",
+      "id": "manager",
+      "title": "Manager",
+      "description": "A Manager works with a number of teams, supporting their engineers and processes. They are responsible for managing engineers across the technology team, guiding and supporting their growth. They ensure we have the right technical skills in the team to tackle the challenges the business is solving.",
       "skills": [
         {
           "id": "technical",
@@ -324,9 +324,9 @@
       ]
     },
     {
-      "id": "engineering-director",
-      "title": "Engineering Director",
-      "description": "An Engineering Director works across the technology team, managing managers and developing future leaders in the team. The Engineering Director identifies areas of focus for the technology team and their processes. They represent the software team to the rest of the organisation, and help shape the team's strategy.",
+      "id": "director",
+      "title": "Director",
+      "description": "A Director works across the technology team, managing managers and developing future leaders in the team. The Director identifies areas of focus for the technology team and their processes. They represent the software team to the rest of the organisation, and help shape the team's strategy.",
       "skills": [
         {
           "id": "technical",

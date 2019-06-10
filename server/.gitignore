@@ -5,11 +5,11 @@ yarn-error.log
 node_modules
 
 # exclude production config (security)
-config/production.json
+#config/production.json
 
 # build output
-build
+#build
 
 # these files change with every client build
-public/index.html
-public/*.js
+#public/index.html
+#public/*.js

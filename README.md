@@ -1,5 +1,26 @@
 # Growth Framework
 
+This is a simple application display and update the Growth Framework.
+
+## Development
+
+Start server
+
+```bash
+$ cd server
+$ yarn dev
+```
+
+Start client
+```bash
+$ cd client
+$ yarn dev
+```
+
+This will server the application on `localhost:3000`
+
+## Resources
+
 The application is built with:
 
 - [React](https://reactjs.org/)

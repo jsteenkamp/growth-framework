@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+.vscode
+.prettierrc
+yarn-error.log
+node_modules

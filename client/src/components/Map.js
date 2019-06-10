@@ -25,6 +25,25 @@ const HoverBox = styled(Box)`
   cursor: pointer;
 `;
 
+const HeadingBox = ({ width = '30%', text }) => {
+  return (
+    <Flex justifyContent="space-between">
+      <Box />
+      <Box
+        m={[1]}
+        width={width}
+        minHeight={16}
+        fontSize={[4]}
+        css={{textAlign: 'center'}}
+      >
+        <Heading.h5>{text}</Heading.h5>
+      </Box>
+      <Box />
+    </Flex>
+  );
+};
+
+
 const RoleBox = ({ width = '30%', selected, role, labels }) => {
   const { id, title } = role;
   const bg = labels || selected === id ? colors.dark : colors.light;
@@ -89,7 +108,7 @@ const SplitBox = ({ width = '50%', selected, roles, labels }) => {
   );
 };
 
-const Map = ({ selected, labels = true }) => {
+const Map = ({ selected, labels = true, headings = false }) => {
   return (
     <Query query={queryRoles} variables={{ id: 'software-engineering' }}>
       {({ loading, error, data }) => {
@@ -106,6 +125,7 @@ const Map = ({ selected, labels = true }) => {
 
         return (
           <Flex flexDirection="column">
+            {headings && <HeadingBox text="Engineers" />}
             <RoleBox selected={selected} role={roles[0]} labels={labels} />
             <RoleBox selected={selected} role={roles[1]} labels={labels} />
             <RoleBox selected={selected} role={roles[2]} labels={labels} />
@@ -129,6 +149,7 @@ const Map = ({ selected, labels = true }) => {
                   role={roles[6]}
                   labels={labels}
                 />
+                {headings && <HeadingBox width={'60%'} text="Individual Contributors" />}
               </Flex>
               <Flex width={'50%'} flexDirection="column">
                 <RoleBox
@@ -143,6 +164,7 @@ const Map = ({ selected, labels = true }) => {
                   role={roles[8]}
                   labels={labels}
                 />
+                {headings && <HeadingBox width={'60%'} text="Leaders" />}
               </Flex>
             </Flex>
           </Flex>

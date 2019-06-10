@@ -19,16 +19,16 @@ const Start = () => {
       <Box width={'66%'}>
         <Heading.h1 my={[2]}>Growth Framework</Heading.h1>
         <Heading.h6>
-          The purpose of the framework is to help you plan your software engineering career
-          and to provide a clear structure of what is expected in
-          different roles.
+          The purpose of the framework is to help you plan your software
+          engineering career and to provide a clear structure of what is
+          expected in different roles.
         </Heading.h6>
       </Box>
       <Box width={'66%'} my={[4]}>
         <Heading.h4 my={[2]}>Roles and Responsibilities</Heading.h4>
         <Heading.h6>
           The framework builds on shared Engineer steps, with a fork to the
-          Individual Contributor and People Management steps.
+          Individual Contributor and Leaders steps.
         </Heading.h6>
       </Box>
       <Flex>
@@ -50,7 +50,7 @@ const Start = () => {
             </Box>
             <Box>
               <Heading.h6 my={[2]}>
-                <strong>People Managers</strong> are individuals with
+                <strong>Leaders</strong> are individuals with
                 development and leadership expertise who are focused on leading
                 and growing the team.
               </Heading.h6>
@@ -58,7 +58,7 @@ const Start = () => {
           </Flex>
         </Box>
         <Box width={'66%'}>
-          <Map />
+          <Map headings={true} />
         </Box>
       </Flex>
       <Box width={'66%'} my={[4]}>
@@ -81,6 +81,13 @@ const Start = () => {
           different skills:
         </Heading.h6>
         <Skills my={[2]} />
+        <Heading.h6>
+          Moving from left to right the skills shift from adder to multiplier.
+          Progression in earlier framework steps is typically driven by adder
+          skills. As you sphere of influence and impact on the organization
+          grows you will increasingly engage in high leverage multiplier
+          activities.
+        </Heading.h6>
       </Box>
     </Flex>
   );
