@@ -2,27 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Flex, Page, Box, Map, Heading, Skills, Values } from '@components';
 
-/*
-      <Box width={'66%'} my={[4]}>
-        <Heading.h4 my={[2]}>Our Values</Heading.h4>
-        <Heading.h6>
-          All members of the software engineering team are expected to exhibit Syft’s
-          values in their work, regardless of role or level.
-        </Heading.h6>
-      </Box>
-     <Values my={[2]} />
- */
-
 const Start = () => {
   return (
-    <Flex flexDirection="column" my={[3]} mx={[5]}>
-      <Box width={'66%'}>
+    <Flex flexDirection="column" mx={[5]}>
+      <Box width={'66%'} my={[4]}>
         <Heading.h1 my={[2]}>Engineering Growth Framework</Heading.h1>
         <Heading.h6>
-          The purpose of the framework is to help you plan your engineering
-          career and to provide a clear structure of what is expected in
-          different roles.
+          The Growth Framework provides a clear, transparent and consequently
+          fair approach to career progression. The purpose of the framework is
+          to help you plan your engineering career and to provide a clear
+          structure of what is expected in different roles.
         </Heading.h6>
+      </Box>
+      <Box my={[2]}>
+        <Heading.h4 my={[2]}>Our Values</Heading.h4>
+        <Heading.h6>
+          All engineers are expected to exhibit our engineering values in their
+          work, regardless of role or level.
+        </Heading.h6>
+        <Values my={[2]} />
       </Box>
       <Box width={'66%'} my={[4]}>
         <Heading.h4 my={[2]}>Roles and Responsibilities</Heading.h4>
@@ -90,6 +88,7 @@ const Start = () => {
           have a larger sphere of influence and impact on the organization.
         </Heading.h6>
       </Box>
+      <Box my={[4]}></Box>
     </Flex>
   );
 };

@@ -1,7 +1,13 @@
 import { gql } from 'apollo-server-express';
 
-export default gql`  
-  
+export default gql`
+
+    type Value {
+        id: ID!
+        title: String
+        details: String
+    }
+    
     type Skill {
         id: ID!
         title: String
@@ -30,5 +36,7 @@ export default gql`
         role(id: String, roleId: String): Role
         skills(id: String): [Skill]
         skill(id: String, skillId: String): Skill
+        values(id: String): [Value]
+        value(id: String, valueId: String): Value
     }
 `;

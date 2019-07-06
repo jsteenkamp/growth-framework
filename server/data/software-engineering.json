@@ -5,6 +5,15 @@
   "version": "0.1",
   "title": "Software Engineering Growth Framework",
   "description": "The purpose of this framework is to help you plan your career and to provide a clear structure of what is expected in different roles.",
+  "values": [
+    { "id": "inspiration", "title": "Inspiration", "details": "Thinking big ideas and imagining about what might be possible" },
+    { "id": "collaboration", "title": "Collaboration", "details": "Working together well with other people and seeking to combine your complimentary strengths" },
+    { "id": "craft", "title": "Craft", "details": "Applying skills to achieve high-quality results and always striving to do better" },
+    { "id": "diligence", "title": "Diligence", "details": "Doing the necessary grunt work and never resorting to shortcuts or half measures" },
+    { "id": "decisiveness", "title": "Decisiveness", "details": "Making tough choices and refusing to delay or procrastinate" },
+    { "id": "taste", "title": "Taste", "details": "Developing a refined sense of judgement and finding the balance that produces a pleasing and integrated whole" },
+    { "id": "empathy", "title": "Empathy", "details": "Trying to see the world from other people's perspectives and creating work that fits their lives and adapts to their needs" }
+  ],
   "skills": [
     {
       "id": "technical",
