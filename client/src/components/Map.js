@@ -138,13 +138,13 @@ const Map = ({ selected, labels = true, headings = false }) => {
             <Flex>
               <Flex width={'50%'} flexDirection="column">
                 <RoleBox
-                  width={'60%'}
+                  width={'70%'}
                   selected={selected}
                   role={roles[5]}
                   labels={labels}
                 />
                 <RoleBox
-                  width={'60%'}
+                  width={'70%'}
                   selected={selected}
                   role={roles[6]}
                   labels={labels}
@@ -153,13 +153,13 @@ const Map = ({ selected, labels = true, headings = false }) => {
               </Flex>
               <Flex width={'50%'} flexDirection="column">
                 <RoleBox
-                  width={'60%'}
+                  width={'70%'}
                   selected={selected}
                   role={roles[7]}
                   labels={labels}
                 />
                 <RoleBox
-                  width={'60%'}
+                  width={'70%'}
                   selected={selected}
                   role={roles[8]}
                   labels={labels}

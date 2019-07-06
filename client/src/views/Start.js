@@ -17,18 +17,19 @@ const Start = () => {
   return (
     <Flex flexDirection="column" my={[3]} mx={[5]}>
       <Box width={'66%'}>
-        <Heading.h1 my={[2]}>Growth Framework</Heading.h1>
+        <Heading.h1 my={[2]}>Engineering Growth Framework</Heading.h1>
         <Heading.h6>
-          The purpose of the framework is to help you plan your software
-          engineering career and to provide a clear structure of what is
-          expected in different roles.
+          The purpose of the framework is to help you plan your engineering
+          career and to provide a clear structure of what is expected in
+          different roles.
         </Heading.h6>
       </Box>
       <Box width={'66%'} my={[4]}>
         <Heading.h4 my={[2]}>Roles and Responsibilities</Heading.h4>
         <Heading.h6>
-          The framework builds on shared Engineer steps, with a fork to the
-          Individual Contributor and Leaders steps.
+          The framework builds on shared Engineer path, with a fork to technical
+          leadership as an Individual Contributor or people leadership as a
+          Leader.
         </Heading.h6>
       </Box>
       <Flex>
@@ -50,9 +51,9 @@ const Start = () => {
             </Box>
             <Box>
               <Heading.h6 my={[2]}>
-                <strong>Leaders</strong> are individuals with
-                development and leadership expertise who are focused on leading
-                and growing the team.
+                <strong>Leaders</strong> are individuals with development and
+                leadership expertise who are focused on leading and growing the
+                team.
               </Heading.h6>
             </Box>
           </Flex>
@@ -65,11 +66,11 @@ const Start = () => {
         <Heading.h4 my={[2]}>Titles and Progression</Heading.h4>
         <Heading.h6>
           The role titles (including the numerics) are for you and your manager
-          to keep track of your progress internally, but you are free to use
-          anything sensible for your outward facing title (e.g. conference
-          talks, LinkedIn). Determining when to progress from one role to the
-          next is a discussion that should happen between you and your manager.
-          As a general guide, performing a significant percentage of the
+          to keep track of your progress internally, you are free to use
+          anything sensible for your outward facing title (meetups, conferences,
+          LinkedIn). Determining when to progress from one role to the next is a
+          discussion that should happen between you and your manager. As a
+          general guide, performing a significant percentage of the
           responsibilities of the next role for 3-6 months would indicate
           readiness to step into that role.
         </Heading.h6>
@@ -77,16 +78,16 @@ const Start = () => {
       <Box my={[2]}>
         <Heading.h4 my={[2]}>Skills</Heading.h4>
         <Heading.h6>
-          Each step and responsibilities are described in the context of 7
-          different skills:
+          Roles and responsibilities are described in the context of 7 skills:
         </Heading.h6>
         <Skills my={[2]} />
+      </Box>
+      <Box width={'66%'} my={[2]}>
         <Heading.h6>
           Moving from left to right the skills shift from adder to multiplier.
-          Progression in earlier framework steps is typically driven by adder
-          skills. As you sphere of influence and impact on the organization
-          grows you will increasingly engage in high leverage multiplier
-          activities.
+          Early progression is driven by growing adder skills. As you
+          increasingly engage in high leverage multiplier activities you will
+          have a larger sphere of influence and impact on the organization.
         </Heading.h6>
       </Box>
     </Flex>

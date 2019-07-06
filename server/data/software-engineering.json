@@ -44,8 +44,8 @@
   ],
   "roles": [
     {
-      "id": "software-engineer-1",
-      "title": "Software Engineer (1)",
+      "id": "engineer-1",
+      "title": "Engineer (1)",
       "description": "A Software Engineer (1) has a solid technical foundation, and a strong focus on growing their development skills. Engineers at this level are able to deliver small to medium-sized well-defined tasks, working individually or collaborating with others. They have a small amount of experience in a well-defined area.",
       "skills": [
         {
@@ -79,8 +79,8 @@
       ]
     },
     {
-      "id": "software-engineer-2",
-      "title": "Software Engineer (2)",
+      "id": "engineer-2",
+      "title": "Engineer (2)",
       "description": "A Software Engineer (2) has a large amount of experience in a well-defined area, and works to support other engineers in the team and leads by example. Engineers at this level are able to deliver medium to large tasks to production, working independently if required. They use best practices to ship high-quality code, and continue to push their knowledge.",
       "skills": [
         {
@@ -114,8 +114,8 @@
       ]
     },
     {
-      "id": "senior-software-engineer-1",
-      "title": "Senior Software Engineer (1)",
+      "id": "senior-engineer-1",
+      "title": "Senior Engineer (1)",
       "description": "A Senior Software Engineer (1) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They support and lead the technical direction in their team, and can communicate future plans and direction to technical and non-technical people.",
       "skills": [
         {
@@ -149,8 +149,8 @@
       ]
     },
     {
-      "id": "senior-software-engineer-2",
-      "title": "Senior Software Engineer (2)",
+      "id": "senior-engineer-2",
+      "title": "Senior Engineer (2)",
       "description": "A Senior Software Engineer (2) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They actively coach and mentor engineers in their team, and are able to identify and resolve issues with technology and product processes.",
       "skills": [
         {
@@ -184,8 +184,8 @@
       ]
     },
     {
-      "id": "technical-lead",
-      "title": "Technical Lead",
+      "id": "technical-leader",
+      "title": "Technical Leader",
       "description": "A Technical Lead represents the technology aspect of a product team, leading the technical direction, guiding engineers, and communicating team progress alongside the Product Manager. Technical Leads have a large amount of technical experience working across multiple systems as well as great communication skills. They help keep the team focused and delivering value.",
       "skills": [
         {
@@ -219,8 +219,8 @@
       ]
     },
     {
-      "id": "principal",
-      "title": "Principal Engineer",
+      "id": "principal-engineer-architect-1",
+      "title": "Principal Engineer/Architect (1)",
       "description": "A Principal Engineer is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Principal Engineers proactively work with the team to identify areas for technical improvements and action them.",
       "skills": [
         {
@@ -254,8 +254,8 @@
       ]
     },
     {
-      "id": "senior-architect",
-      "title": "Senior Architect",
+      "id": "principal-engineer-architect-2",
+      "title": "Principal Engineer/Architect (2)",
       "description": "A Senior Architect is responsible for leading the Architects group. They ensure the Architects are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
       "skills": [
         {
