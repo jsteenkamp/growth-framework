@@ -12,14 +12,14 @@ import { darken } from 'polished';
 
 const Markdown = styled(Text)`
   font-size: 0.8em;
-  line-height: 1.2em;
+  line-height: 1.25em;
   & ul {
     padding-left: 8px;
     & li {
       margin: .5em 0;
       padding: 0;
       list-style-type: none;
-      line-height: 1.2em;
+      line-height: 1.25em;
     }
     & li:before {
       content: "- ";

@@ -7,8 +7,14 @@ exports.default = void 0;
 
 var _apolloServerExpress = require("apollo-server-express");
 
-var _default = _apolloServerExpress.gql`  
-  
+var _default = _apolloServerExpress.gql`
+
+    type Value {
+        id: ID!
+        title: String
+        details: String
+    }
+    
     type Skill {
         id: ID!
         title: String
@@ -37,6 +43,8 @@ var _default = _apolloServerExpress.gql`
         role(id: String, roleId: String): Role
         skills(id: String): [Skill]
         skill(id: String, skillId: String): Skill
+        values(id: String): [Value]
+        value(id: String, valueId: String): Value
     }
 `;
 

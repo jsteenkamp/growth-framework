@@ -164,7 +164,7 @@
       "skills": [
         {
           "id": "technical",
-          "details": "Go-to expert in one area of the codebase.\n\nKeeps up with industry best practices.\n\nEnables other engineers to work more effectively.\n\nUnderstands the broad architecture of the entire system.\n\nProvides technical advice and weighs in on technical decisions that impact other teams or the company at large.\n\nResearches and proposes new technologies.\n\n**Example behaviors:**\n- Made a plan to add Jest to stack, got feedback from Architects, worked with the team to roll-out\n- Shared results migrating to Webpack"
+          "details": "Go-to expert in one area of the codebase.\n\nKeeps up with industry best practices.\n\nEnables other engineers to work more effectively.\n\nUnderstands the broad architecture of the entire system.\n\nProvides technical advice and weighs in on technical decisions that impact other teams or the company at large.\n\nResearches and proposes new technologies.\n\n**Example behaviors:**\n- Made a plan to add Jest to stack, got feedback from principals/architects, worked with the team to roll-out\n- Shared results migrating to Webpack"
         },
         {
           "id": "gsd",

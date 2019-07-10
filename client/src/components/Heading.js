@@ -26,9 +26,9 @@ Heading.displayName = 'Heading';
 
 Heading.h1 = props => <Heading {...props} is="h1" fontSize={9} fontWeight={0} letterSpacing={-1.5} />;
 Heading.h2 = props => <Heading {...props} is="h2" fontSize={8} fontWeight={0} letterSpacing={-0.5} />;
-Heading.h3 = props => <Heading {...props} is="h3" fontSize={7} fontWeight={0} letterSpacing={0} lineHeight={1.5} />;
+Heading.h3 = props => <Heading {...props} is="h3" fontSize={7} fontWeight={0} letterSpacing={0} lineHeight={1.6} />;
 Heading.h4 = props => <Heading {...props} is="h4" fontSize={6} fontWeight={500} letterSpacing={0.25} />;
 Heading.h5 = props => <Heading {...props} is="h5" fontSize={4} fontWeight={400} letterSpacing={0} />;
-Heading.h6 = props => <Heading {...props} is="h6" fontSize={4} fontWeight={0} letterSpacing={0} lineHeight={1.2} />;
+Heading.h6 = props => <Heading {...props} is="h6" fontSize={4} fontWeight={0} letterSpacing={0} lineHeight={1.4} />;
 
 export default Heading;

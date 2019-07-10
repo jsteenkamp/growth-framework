@@ -105,6 +105,25 @@ var _default = {
 
         parseDataFile(id, parseData, reject);
       });
+    },
+    values: async (root, {
+      id
+    }) => {
+      return new Promise((resolve, reject) => {
+        const parseData = data => resolve(data.values);
+
+        parseDataFile(id, parseData, reject);
+      });
+    },
+    value: async (root, {
+      id,
+      valueId
+    }) => {
+      return new Promise((resolve, reject) => {
+        const parseData = data => resolve(data.values.find(value => value.id === valueId));
+
+        parseDataFile(id, parseData, reject);
+      });
     }
   }
 };

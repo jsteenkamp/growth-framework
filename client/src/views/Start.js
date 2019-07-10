@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Flex, Page, Box, Map, Heading, Skills, Values } from '@components';
+import { Flex, Box, Map, Heading, Skills, Values } from '@components';
 
 const Start = () => {
   return (
@@ -17,8 +17,8 @@ const Start = () => {
       <Box my={[2]}>
         <Heading.h4 my={[2]}>Our Values</Heading.h4>
         <Heading.h6>
-          All engineers are expected to exhibit our engineering values in their
-          work, regardless of role or level.
+          All engineers regardless of role or level are expected to exhibit our
+          engineering values in their work.
         </Heading.h6>
         <Values my={[2]} />
       </Box>
