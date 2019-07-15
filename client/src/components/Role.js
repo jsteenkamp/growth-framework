@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Flex, Box, Heading, Card, Map } from '@components';
+import { navigate } from '@reach/router';
 
 const Role = ({ role }) => {
   const { id, title, description, skills } = role;
@@ -13,7 +14,7 @@ const Role = ({ role }) => {
     <Flex flexDirection="column" my={[3]} mx={[5]}>
       <Flex justifyContent="space-between">
         <Flex flexDirection="column" width={'66%'}>
-          <Box m={[2]}>
+          <Box m={[2]} onClick={() => navigate(`/`)}>
             <Heading.h3>{title}</Heading.h3>
           </Box>
           <Box mx={[2]}>

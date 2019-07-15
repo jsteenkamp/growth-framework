@@ -4,7 +4,7 @@ import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import styled from 'styled-components';
 import { darken } from 'polished';
-import { Flex, Box, Spinner, MessageBox, Text, Heading } from '@components';
+import { Flex, Box, Spinner, MessageBox, Heading } from '@components';
 import { navigate } from '@reach/router';
 
 const colors = {
