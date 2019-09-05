@@ -28,7 +28,7 @@
     {
       "id": "impact",
       "title": "Impact",
-      "details": "- Adopt the right mindset\n- Exceute, execute, execute\n- Built long-term value\n- Taking ownership"
+      "details": "- Adopt the right mindset\n- Execute, execute, execute\n- Built long-term value\n- Taking ownership"
     },
     {
       "id": "communication",
@@ -230,7 +230,7 @@
     {
       "id": "principal-engineer-architect-1",
       "title": "Principal Engineer/Architect (1)",
-      "description": "A Principal Engineer is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Principal Engineers proactively work with the team to identify areas for technical improvements and action them.",
+      "description": "A Principal Engineer/Architect is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Principal Engineers/Architects proactively work with the team to identify areas for technical improvements and action them.",
       "skills": [
         {
           "id": "technical",
@@ -265,7 +265,7 @@
     {
       "id": "principal-engineer-architect-2",
       "title": "Principal Engineer/Architect (2)",
-      "description": "A Senior Architect is responsible for leading the Architects group. They ensure the Architects are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
+      "description": "A Senior Principal Engineer/Architect is responsible for leading the Principal Engineers/Architects group. They ensure the Principle Engineers/Architects are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
       "skills": [
         {
           "id": "technical",

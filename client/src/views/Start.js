@@ -17,8 +17,9 @@ const Start = () => {
       <Box my={[2]}>
         <Heading.h4 my={[2]}>Our Values</Heading.h4>
         <Heading.h6>
-          All engineers regardless of role or level are expected to exhibit our
-          engineering values in their work.
+          Great work is defined by creativity, impact, control and a combination
+          of people and commitment. Our values are how we go about achieving
+          great work.
         </Heading.h6>
         <Values my={[2]} />
       </Box>
