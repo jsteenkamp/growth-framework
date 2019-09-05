@@ -2,7 +2,7 @@
   "id": "software-engineering",
   "date": "2/12/2012",
   "author": "Johan Steenkamp",
-  "version": "0.1",
+  "version": "0.2",
   "title": "Software Engineering Growth Framework",
   "description": "The purpose of this framework is to help you plan your career and to provide a clear structure of what is expected in different roles.",
   "values": [
@@ -54,8 +54,8 @@
   "roles": [
     {
       "id": "engineer-1",
-      "title": "Engineer (1)",
-      "description": "A Software Engineer (1) has a solid technical foundation, and a strong focus on growing their development skills. Engineers at this level are able to deliver small to medium-sized well-defined tasks, working individually or collaborating with others. They have a small amount of experience in a well-defined area.",
+      "title": "Engineer E1",
+      "description": "A Software Engineer E1 has a solid technical foundation, and a strong focus on growing their development skills. Engineers at this level are able to deliver small to medium-sized well-defined tasks, working individually or collaborating with others. They have a small amount of experience in a well-defined area.",
       "skills": [
         {
           "id": "technical",
@@ -89,8 +89,8 @@
     },
     {
       "id": "engineer-2",
-      "title": "Engineer (2)",
-      "description": "A Software Engineer (2) has a large amount of experience in a well-defined area, and works to support other engineers in the team and leads by example. Engineers at this level are able to deliver medium to large tasks to production, working independently if required. They use best practices to ship high-quality code, and continue to push their knowledge.",
+      "title": "Engineer E2",
+      "description": "A Software Engineer E2 has a large amount of experience in a well-defined area, and works to support other engineers in the team and leads by example. Engineers at this level are able to deliver medium to large tasks to production, working independently if required. They use best practices to ship high-quality code, and continue to push their knowledge.",
       "skills": [
         {
           "id": "technical",
@@ -123,9 +123,9 @@
       ]
     },
     {
-      "id": "senior-engineer-1",
-      "title": "Senior Engineer (1)",
-      "description": "A Senior Software Engineer (1) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They support and lead the technical direction in their team, and can communicate future plans and direction to technical and non-technical people.",
+      "id": "engineer-3",
+      "title": "Engineer E3",
+      "description": "A Software Engineer E3 has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They support and lead the technical direction in their team, and can communicate future plans and direction to technical and non-technical people.",
       "skills": [
         {
           "id": "technical",
@@ -158,9 +158,9 @@
       ]
     },
     {
-      "id": "senior-engineer-2",
-      "title": "Senior Engineer (2)",
-      "description": "A Senior Software Engineer (2) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They actively coach and mentor engineers in their team, and are able to identify and resolve issues with technology and product processes.",
+      "id": "engineer-4",
+      "title": "Engineer E4",
+      "description": "A Software Engineer E4 has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They actively coach and mentor engineers in their team, and are able to identify and resolve issues with technology and product processes.",
       "skills": [
         {
           "id": "technical",
@@ -193,9 +193,9 @@
       ]
     },
     {
-      "id": "technical-leader",
-      "title": "Technical Leader",
-      "description": "A Technical Lead represents the technology aspect of a product team, leading the technical direction, guiding engineers, and communicating team progress alongside the Product Manager. Technical Leads have a large amount of technical experience working across multiple systems as well as great communication skills. They help keep the team focused and delivering value.",
+      "id": "leader-1",
+      "title": "Leader L1",
+      "description": "A Leader L1 represents the technology aspect of a product team, leading the technical direction, guiding engineers, and communicating team progress alongside the Product Manager. Leader L1s have a large amount of technical experience working across multiple systems as well as great communication skills. They help keep the team focused and delivering value.",
       "skills": [
         {
           "id": "technical",
@@ -228,9 +228,9 @@
       ]
     },
     {
-      "id": "principal-engineer-architect-1",
-      "title": "Principal Engineer/Architect (1)",
-      "description": "A Principal Engineer/Architect is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Principal Engineers/Architects proactively work with the team to identify areas for technical improvements and action them.",
+      "id": "engineer-5",
+      "title": "Engineer E5",
+      "description": "A Software Engineer E5 is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Software Engineers E5 proactively work with the team to identify areas for technical improvements and action them.",
       "skills": [
         {
           "id": "technical",
@@ -263,9 +263,9 @@
       ]
     },
     {
-      "id": "principal-engineer-architect-2",
-      "title": "Principal Engineer/Architect (2)",
-      "description": "A Senior Principal Engineer/Architect is responsible for leading the Principal Engineers/Architects group. They ensure the Principle Engineers/Architects are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
+      "id": "engineer-6",
+      "title": "Engineer E6",
+      "description": "A Software Engineer E6 is responsible for leading the Software Engineer E6 group. They ensure the Software Engineers E6 are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
       "skills": [
         {
           "id": "technical",
@@ -298,9 +298,9 @@
       ]
     },
     {
-      "id": "manager",
-      "title": "Manager",
-      "description": "A Manager works with a number of teams, supporting their engineers and processes. They are responsible for managing engineers across the technology team, guiding and supporting their growth. They ensure we have the right technical skills in the team to tackle the challenges the business is solving.",
+      "id": "leader-2",
+      "title": "Leader L2",
+      "description": "A Leader L2 works with a number of teams, supporting their engineers and processes. They are responsible for managing and leading engineers across the technology team, guiding and supporting their growth. They ensure we have the right technical skills in the team to tackle the challenges the business is solving.",
       "skills": [
         {
           "id": "technical",
@@ -333,9 +333,9 @@
       ]
     },
     {
-      "id": "director",
-      "title": "Director",
-      "description": "A Director works across the technology team, managing managers and developing future leaders in the team. The Director identifies areas of focus for the technology team and their processes. They represent the software team to the rest of the organisation, and help shape the team's strategy.",
+      "id": "leader-3",
+      "title": "Leader L3",
+      "description": "A Leader L3 works across the technology team, managing and leading leaders and developing future leaders in the team. The Leader L3 identifies areas of focus for the technology team and their processes. They represent the software team to the rest of the organisation, and help shape the team's strategy.",
       "skills": [
         {
           "id": "technical",

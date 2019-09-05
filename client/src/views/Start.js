@@ -64,11 +64,11 @@ const Start = () => {
       <Box width={'66%'} my={[4]}>
         <Heading.h4 my={[2]}>Titles and Progression</Heading.h4>
         <Heading.h6>
-          The role titles (including the numerics) are for you and your manager
+          The role titles (including the numerics) are for you and your leader
           to keep track of your progress internally, you are free to use
           anything sensible for your outward facing title (meetups, conferences,
           LinkedIn). Determining when to progress from one role to the next is a
-          discussion that should happen between you and your manager. As a
+          discussion that should happen between you and your leader. As a
           general guide, performing a significant percentage of the
           responsibilities of the next role for 3-6 months would indicate
           readiness to step into that role.
