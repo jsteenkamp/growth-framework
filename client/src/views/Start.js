@@ -13,6 +13,7 @@ const Start = () => {
           to help you plan your engineering career and to provide a clear
           structure of what is expected in different roles.
         </Heading.h6>
+        <Heading.h6>The framework is a specification of a set of desired behaviors we expect at each level.</Heading.h6>
       </Box>
       <Box my={[2]}>
         <Heading.h4 my={[2]}>Our Values</Heading.h4>
@@ -24,9 +25,9 @@ const Start = () => {
         <Values my={[2]} />
       </Box>
       <Box width={'66%'} my={[4]}>
-        <Heading.h4 my={[2]}>Roles and Responsibilities</Heading.h4>
+        <Heading.h4 my={[2]}>Levels and Responsibilities</Heading.h4>
         <Heading.h6>
-          The framework builds on shared Engineer path, with a fork to technical
+          The framework builds on common Engineer path, with a fork to technical
           leadership as an Individual Contributor or people leadership as a
           Leader.
         </Heading.h6>
@@ -83,7 +84,7 @@ const Start = () => {
       </Box>
       <Box width={'66%'} my={[2]}>
         <Heading.h6>
-          Moving from left to right the skills shift from adder to multiplier.
+          Moving from left to right the skills shift from adder (TS, GSD, I) to multiplier (C,M,L,BK).
           Early progression is driven by growing adder skills. As you
           increasingly engage in high leverage multiplier activities you will
           have a larger sphere of influence and impact on the organization.

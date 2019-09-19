@@ -9,7 +9,7 @@ const Heading = sys(
     fontWeight: 500,
     lineHeight: 1.1,
     letterSpacing: 0.25,
-    m: 0,
+    m: 2,
   },
   props => ({
     color: `${themeGet('colors.primaryText')(props)}`,
