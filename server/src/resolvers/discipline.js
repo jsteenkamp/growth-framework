@@ -69,16 +69,16 @@ export default {
         parseDataFile(id, parseData, reject);
       });
     },
-    values: async (root, { id }) => {
+    principles: async (root, { id }) => {
       return new Promise((resolve, reject) => {
-        const parseData = data => resolve(data.values);
+        const parseData = data => resolve(data.principles);
         parseDataFile(id, parseData, reject);
       });
     },
-    value: async (root, { id, valueId }) => {
+    principle: async (root, { id, principleId }) => {
       return new Promise((resolve, reject) => {
         const parseData = data =>
-          resolve(data.values.find(value => value.id === valueId));
+          resolve(data.principles.find(principle => principle.id === principleId));
         parseDataFile(id, parseData, reject);
       });
     },

@@ -5,8 +5,8 @@ import gql from 'graphql-tag';
 import { Flex, Card, MessageBox, Spinner } from '@components';
 
 const queryValues = gql`
-  query Values($id: String) {
-    values(id: $id) {
+  query Principles($id: String) {
+    principles(id: $id) {
       id
       title
       details
@@ -14,7 +14,7 @@ const queryValues = gql`
   }
 `;
 
-const Values = props => {
+const Principles = props => {
   return (
     <Query query={queryValues} variables={{ id: 'software-engineering' }}>
       {({ loading, error, data }) => {
@@ -27,7 +27,7 @@ const Values = props => {
           );
         }
 
-        const cards = data.values.map(({ title, details }) => (
+        const cards = data.principles.map(({ title, details }) => (
           <Card key={title} heading={title} text={details} />
         ));
 
@@ -41,10 +41,10 @@ const Values = props => {
   );
 };
 
-Values.displayName = 'Values';
+Principles.displayName = 'Principles';
 
-Values.propTypes = {
+Principles.propTypes = {
   role: PropTypes.object,
 };
 
-export default Values;
+export default Principles;

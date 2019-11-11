@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Flex, Box, Map, Heading, Skills, Values } from '@components';
+import { Flex, Box, Map, Heading, Skills, Principles } from '@components';
 
 const Start = () => {
   return (
@@ -13,16 +13,19 @@ const Start = () => {
           to help you plan your engineering career and to provide a clear
           structure of what is expected in different roles.
         </Heading.h6>
-        <Heading.h6>The framework is a specification of a set of desired behaviors we expect at each level.</Heading.h6>
+        <Heading.h6>
+          The framework is a specification of a set of desired behaviors we
+          expect at each level.
+        </Heading.h6>
       </Box>
       <Box my={[2]}>
-        <Heading.h4 my={[2]}>Our Values</Heading.h4>
+        <Heading.h4 my={[2]}>Our Principles</Heading.h4>
         <Heading.h6>
-          Great work is defined by creativity, impact, control and a combination
-          of people and commitment. Our values are how we go about achieving
-          great work.
+          We use our Principles every day, whether we&apos;re discussing ideas
+          for new projects or deciding on the best approach to solving a
+          problem.
         </Heading.h6>
-        <Values my={[2]} />
+        <Principles my={[2]} />
       </Box>
       <Box width={'66%'} my={[4]}>
         <Heading.h4 my={[2]}>Levels and Responsibilities</Heading.h4>
@@ -63,31 +66,32 @@ const Start = () => {
         </Box>
       </Flex>
       <Box width={'66%'} my={[4]}>
-        <Heading.h4 my={[2]}>Titles and Progression</Heading.h4>
+        <Heading.h4 my={[2]}>Levels and Progression</Heading.h4>
         <Heading.h6>
-          The role titles (including the numerics) are for you and your leader
-          to keep track of your progress internally, you are free to use
-          anything sensible for your outward facing title (meetups, conferences,
-          LinkedIn). Determining when to progress from one role to the next is a
-          discussion that should happen between you and your leader. As a
-          general guide, performing a significant percentage of the
-          responsibilities of the next role for 3-6 months would indicate
-          readiness to step into that role.
+          The levels (including the numerics) are for you and your leader to
+          keep track of your progress internally, you are free to use anything
+          sensible for your outward facing title (meetups, conferences,
+          LinkedIn). Determining when to progress from one level to the next is
+          a discussion between you and your leader. As a general guide,
+          consistently performing a significant percentage of the
+          responsibilities of the next level for 3-6 months would indicate
+          readiness to step that level.
         </Heading.h6>
       </Box>
       <Box my={[2]}>
         <Heading.h4 my={[2]}>Skills</Heading.h4>
         <Heading.h6>
-          Roles and responsibilities are described in the context of 7 skills:
+          Levels and responsibilities are described in the context of 7 skills:
         </Heading.h6>
         <Skills my={[2]} />
       </Box>
       <Box width={'66%'} my={[2]}>
         <Heading.h6>
-          Moving from left to right the skills shift from adder (TS, GSD, I) to multiplier (C,M,L,BK).
-          Early progression is driven by growing adder skills. As you
-          increasingly engage in high leverage multiplier activities you will
-          have a larger sphere of influence and impact on the organization.
+          Moving from left to right the skills shift from adder (TS,GSD,I) to
+          multiplier (C,M,L,BK). Early progression is driven by growing adder
+          skills. As you increasingly engage in high leverage multiplier
+          activities you will have a larger sphere of influence and impact on
+          the organization.
         </Heading.h6>
       </Box>
       <Box my={[4]}></Box>

@@ -5,14 +5,42 @@
   "version": "0.2",
   "title": "Software Engineering Growth Framework",
   "description": "The purpose of this framework is to help you plan your career and to provide a clear structure of what is expected in different roles.",
-  "values": [
-    { "id": "inspiration", "title": "Inspiration", "details": "Thinking big ideas and imagining about what might be possible" },
-    { "id": "collaboration", "title": "Collaboration", "details": "Working together well with other people and seeking to combine your complimentary strengths" },
-    { "id": "craft", "title": "Craft", "details": "Applying skills to achieve high-quality results and always striving to do better" },
-    { "id": "diligence", "title": "Diligence", "details": "Doing the necessary grunt work and never resorting to shortcuts or half measures" },
-    { "id": "decisiveness", "title": "Decisiveness", "details": "Making tough choices and refusing to delay or procrastinate" },
-    { "id": "taste", "title": "Taste", "details": "Developing a refined sense of judgement and finding the balance that produces a pleasing and integrated whole" },
-    { "id": "empathy", "title": "Empathy", "details": "Trying to see the world from other people's perspectives and creating work that fits their lives and adapts to their needs" }
+  "principles": [
+    {
+      "id": "customer-focus",
+      "title": "Customer Focus",
+      "details": "You always start with the customer and work backwards. You work vigorously to earn and keep customer trust. Although you pay attention to competitors, you always obsess over customers."
+    },
+    {
+      "id": "ownership",
+      "title": "Ownership",
+      "details": "You are an owner. You think long term and don't sacrifice long-term value for short-term results. You act on behalf of the entire company, beyond just your own team. You never say “that’s not my job.”"
+    },
+    {
+      "id": "invent-simplify",
+      "title": "Invent and Simplify",
+      "details": "You expect and require innovation and invention from your team and always find ways to simplify. You are externally aware, look for new ideas from everywhere, and are not limited by “not invented here”."
+    },
+    {
+      "id": "learn-curious",
+      "title": "Learn and Curious",
+      "details": "You are never done learning and always seek to improve. You are curious about new possibilities and act to explore them."
+    },
+    {
+      "id": "bias-action",
+      "title": "Bias for Action",
+      "details": "Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking."
+    },
+    {
+      "id": "frugality",
+      "title": "Frugality",
+      "details": "You accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention.  There are no extra points for growing headcount, budget size or fixed expense."
+    },
+    {
+      "id": "deliver-results",
+      "title": "Deliver Results",
+      "details": "You focus on the key results to on your business objectives with the right quality and in a timely fashion. Despite setbacks, you rise to the occasion and never compromise."
+    }
   ],
   "skills": [
     {
@@ -56,6 +84,12 @@
       "id": "engineer-1",
       "title": "Engineer E1",
       "description": "A Software Engineer E1 has a solid technical foundation, and a strong focus on growing their development skills. Engineers at this level are able to deliver small to medium-sized well-defined tasks, working individually or collaborating with others. They have a small amount of experience in a well-defined area.",
+      "level": [
+        { "id": "skill", "value": "beginner" },
+        { "id": "effort-horizon", "value": "2w" },
+        { "id": "influence", "value": "individual" },
+        { "id": "experience-years", "value": "0-2" }
+      ],
       "skills": [
         {
           "id": "technical",
@@ -91,6 +125,12 @@
       "id": "engineer-2",
       "title": "Engineer E2",
       "description": "A Software Engineer E2 has a large amount of experience in a well-defined area, and works to support other engineers in the team and leads by example. Engineers at this level are able to deliver medium to large tasks to production, working independently if required. They use best practices to ship high-quality code, and continue to push their knowledge.",
+      "level": [
+        { "id": "skill", "value": "intermediate" },
+        { "id": "effort-horizon", "value": "4w" },
+        { "id": "influence", "value": "team" },
+        { "id": "experience-years", "value": "2-4+" }
+      ],
       "skills": [
         {
           "id": "technical",
@@ -126,6 +166,12 @@
       "id": "engineer-3",
       "title": "Engineer E3",
       "description": "A Software Engineer E3 has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They support and lead the technical direction in their team, and can communicate future plans and direction to technical and non-technical people.",
+      "level": [
+        { "id": "skill", "value": "advanced" },
+        { "id": "effort-horizon", "value": "1q" },
+        { "id": "influence", "value": "teams" },
+        { "id": "experience-years", "value": "3-5+" }
+      ],
       "skills": [
         {
           "id": "technical",
@@ -161,6 +207,12 @@
       "id": "engineer-4",
       "title": "Engineer E4",
       "description": "A Software Engineer E4 has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They actively coach and mentor engineers in their team, and are able to identify and resolve issues with technology and product processes.",
+      "level": [
+        { "id": "skill", "value": "expert" },
+        { "id": "effort-horizon", "value": "2q-1y" },
+        { "id": "influence", "value": "teams" },
+        { "id": "experience-years", "value": "5+" }
+      ],
       "skills": [
         {
           "id": "technical",
@@ -196,6 +248,12 @@
       "id": "leader-1",
       "title": "Leader L1",
       "description": "A Leader L1 represents the technology aspect of a product team, leading the technical direction, guiding engineers, and communicating team progress alongside the Product Manager. Leader L1s have a large amount of technical experience working across multiple systems as well as great communication skills. They help keep the team focused and delivering value.",
+      "level": [
+        { "id": "skill", "value": "expert" },
+        { "id": "effort-horizon", "value": "2q-1y" },
+        { "id": "influence", "value": "teams" },
+        { "id": "experience-years", "value": "5+" }
+      ],
       "skills": [
         {
           "id": "technical",
@@ -231,6 +289,12 @@
       "id": "engineer-5",
       "title": "Engineer E5",
       "description": "A Software Engineer E5 is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Software Engineers E5 proactively work with the team to identify areas for technical improvements and action them.",
+      "level": [
+        { "id": "skill", "value": "master" },
+        { "id": "effort-horizon", "value": "1-2y" },
+        { "id": "influence", "value": "organization" },
+        { "id": "experience-years", "value": "10+" }
+      ],
       "skills": [
         {
           "id": "technical",
@@ -266,6 +330,12 @@
       "id": "engineer-6",
       "title": "Engineer E6",
       "description": "A Software Engineer E6 is responsible for leading the Software Engineer E6 group. They ensure the Software Engineers E6 are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
+      "level": [
+        { "id": "skill", "value": "master" },
+        { "id": "effort-horizon", "value": "open" },
+        { "id": "influence", "value": "organization" },
+        { "id": "experience-years", "value": "15+" }
+      ],
       "skills": [
         {
           "id": "technical",
@@ -301,6 +371,12 @@
       "id": "leader-2",
       "title": "Leader L2",
       "description": "A Leader L2 works with a number of teams, supporting their engineers and processes. They are responsible for managing and leading engineers across the technology team, guiding and supporting their growth. They ensure we have the right technical skills in the team to tackle the challenges the business is solving.",
+      "level": [
+        { "id": "skill", "value": "master" },
+        { "id": "effort-horizon", "value": "1-2y" },
+        { "id": "influence", "value": "organization" },
+        { "id": "experience-years", "value": "10+" }
+      ],
       "skills": [
         {
           "id": "technical",
@@ -336,6 +412,12 @@
       "id": "leader-3",
       "title": "Leader L3",
       "description": "A Leader L3 works across the technology team, managing and leading leaders and developing future leaders in the team. The Leader L3 identifies areas of focus for the technology team and their processes. They represent the software team to the rest of the organisation, and help shape the team's strategy.",
+      "level": [
+        { "id": "skill", "value": "master" },
+        { "id": "effort-horizon", "value": "open" },
+        { "id": "influence", "value": "organization" },
+        { "id": "experience-years", "value": "15+" }
+      ],
       "skills": [
         {
           "id": "technical",
