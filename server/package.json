@@ -16,7 +16,7 @@
     "deploy": "now && now alias $(pbpaste) gf.jsx.nz"
   },
   "dependencies": {
-    "apollo-server-express": "^2.0.0",
+    "apollo-server-express": "^2.14.2",
     "compression": "^1.7.2",
     "config": "^3.0.0",
     "express": "^4.16.3",
