@@ -1,6 +1,6 @@
 # Growth Framework
 
-This is a simple application display and update the Growth Framework.
+A simple application to display and update the Growth Framework.
 
 ## Development
 
@@ -10,6 +10,7 @@ Start server
 $ cd server
 $ yarn dev
 ```
+This serves the API on `localhost:3002`
 
 Start client
 ```bash
@@ -17,7 +18,7 @@ $ cd client
 $ yarn dev
 ```
 
-This will server the application on `localhost:3000`
+This will serve the application on `localhost:3000`
 
 ## Resources
 

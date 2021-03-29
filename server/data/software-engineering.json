@@ -165,7 +165,7 @@
     {
       "id": "engineer-3",
       "title": "Engineer E3",
-      "description": "A Software Engineer E3 has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They support and lead the technical direction in their team, and can communicate future plans and direction to technical and non-technical people.",
+      "description": "A Software Engineer E3 (Senior Engineer) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They support and lead the technical direction in their team, and can communicate future plans and direction to technical and non-technical people.",
       "level": [
         { "id": "skill", "value": "advanced" },
         { "id": "effort-horizon", "value": "1q" },
@@ -206,7 +206,7 @@
     {
       "id": "engineer-4",
       "title": "Engineer E4",
-      "description": "A Software Engineer E4 has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They actively coach and mentor engineers in their team, and are able to identify and resolve issues with technology and product processes.",
+      "description": "A Software Engineer E4 (Senior Engineer) has a large amount of experience across multiple systems, and is able to estimate and reliably deliver complex tasks impacting multiple systems. They actively coach and mentor engineers in their team, and are able to identify and resolve issues with technology and product processes.",
       "level": [
         { "id": "skill", "value": "expert" },
         { "id": "effort-horizon", "value": "2q-1y" },
@@ -247,7 +247,7 @@
     {
       "id": "leader-1",
       "title": "Leader L1",
-      "description": "A Leader L1 represents the technology aspect of a product team, leading the technical direction, guiding engineers, and communicating team progress alongside the Product Manager. Leader L1s have a large amount of technical experience working across multiple systems as well as great communication skills. They help keep the team focused and delivering value.",
+      "description": "A Leader L1 (Technical Team Leader) represents the technology aspect of a product team, leading the technical direction, guiding engineers, and communicating team progress alongside the Product Manager. Leader L1s have a large amount of technical experience working across multiple systems as well as great communication skills. They help keep the team focused and delivering value.",
       "level": [
         { "id": "skill", "value": "expert" },
         { "id": "effort-horizon", "value": "2q-1y" },
@@ -286,9 +286,9 @@
       ]
     },
     {
-      "id": "engineer-5",
-      "title": "Engineer E5",
-      "description": "A Software Engineer E5 is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Software Engineers E5 proactively work with the team to identify areas for technical improvements and action them.",
+      "id": "ic-1",
+      "title": "Individual Contributor IC1",
+      "description": "A Individual Contributor IC1 (Staff Engineer) is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Software Engineers E5 proactively work with the team to identify areas for technical improvements and action them.",
       "level": [
         { "id": "skill", "value": "master" },
         { "id": "effort-horizon", "value": "1-2y" },
@@ -327,9 +327,9 @@
       ]
     },
     {
-      "id": "engineer-6",
-      "title": "Engineer E6",
-      "description": "A Software Engineer E6 is responsible for leading the Software Engineer E6 group. They ensure the Software Engineers E6 are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
+      "id": "ic-2",
+      "title": "Individual Contributor IC2",
+      "description": "A Software Individual Contributor IC2 (Principal Engineer) is responsible for leading the Software Individual Contributor IC2 group. They ensure the Software Engineers E6 are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
       "level": [
         { "id": "skill", "value": "master" },
         { "id": "effort-horizon", "value": "open" },
@@ -370,7 +370,7 @@
     {
       "id": "leader-2",
       "title": "Leader L2",
-      "description": "A Leader L2 works with a number of teams, supporting their engineers and processes. They are responsible for managing and leading engineers across the technology team, guiding and supporting their growth. They ensure we have the right technical skills in the team to tackle the challenges the business is solving.",
+      "description": "A Leader L2 (Engineering Manager) works with a number of teams, supporting their engineers and processes. They are responsible for managing and leading engineers across the technology team, guiding and supporting their growth. They ensure we have the right technical skills in the team to tackle the challenges the business is solving.",
       "level": [
         { "id": "skill", "value": "master" },
         { "id": "effort-horizon", "value": "1-2y" },
@@ -411,7 +411,7 @@
     {
       "id": "leader-3",
       "title": "Leader L3",
-      "description": "A Leader L3 works across the technology team, managing and leading leaders and developing future leaders in the team. The Leader L3 identifies areas of focus for the technology team and their processes. They represent the software team to the rest of the organisation, and help shape the team's strategy.",
+      "description": "A Leader L3 (Engineering Director) works across the technology team, managing and leading leaders and developing future leaders in the team. The Leader L3 identifies areas of focus for the technology team and their processes. They represent the software team to the rest of the organisation, and help shape the team's strategy.",
       "level": [
         { "id": "skill", "value": "master" },
         { "id": "effort-horizon", "value": "open" },
