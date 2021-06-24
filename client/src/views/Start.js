@@ -8,14 +8,12 @@ const Start = () => {
       <Box width={'66%'} my={[4]}>
         <Heading.h1 my={[2]}>Engineering Growth Framework</Heading.h1>
         <Heading.h6>
-          The Growth Framework provides a clear, transparent and consequently
-          fair approach to career progression. The purpose of the framework is
-          to help you plan your engineering career and to provide a clear
-          structure of what is expected in different roles.
+          The framework provides a clear, transparent and consequently fair
+          approach to career progression.
         </Heading.h6>
         <Heading.h6>
-          The framework is a specification of a set of desired behaviors we
-          expect at each level.
+          Use the framework to help you plan your engineering career and to
+          provide guidance of desired behaviors we expect at each level.
         </Heading.h6>
       </Box>
       <Box my={[2]}>
@@ -71,8 +69,11 @@ const Start = () => {
           The levels (including the numerics) are for you and your leader to
           keep track of your progress internally, you are free to use anything
           sensible for your outward facing title (meetups, conferences,
-          LinkedIn). Determining when to progress from one level to the next is
-          a discussion between you and your leader. As a general guide,
+          LinkedIn).
+        </Heading.h6>
+        <Heading.h6>
+          Determining when to progress from one level to the next is a
+          discussion between you and your leader. As a general guide,
           consistently performing a significant percentage of the
           responsibilities of the next level for 3-6 months would indicate
           readiness to step that level.
@@ -88,10 +89,12 @@ const Start = () => {
       <Box width={'66%'} my={[2]}>
         <Heading.h6>
           Moving from left to right the skills shift from adder (TS,GSD,I) to
-          multiplier (C,M,L,BK). Early progression is driven by growing adder
-          skills. As you increasingly engage in high leverage multiplier
-          activities you will have a larger sphere of influence and impact on
-          the organization.
+          multiplier (C,M,L,BK).
+        </Heading.h6>
+        <Heading.h6>
+          Early progression is driven by growing adder skills. As you
+          increasingly engage in high leverage multiplier activities you will
+          have a larger sphere of influence and impact on the organization.
         </Heading.h6>
       </Box>
       <Box my={[4]}></Box>

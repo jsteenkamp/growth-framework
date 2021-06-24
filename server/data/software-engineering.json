@@ -12,11 +12,6 @@
       "details": "You always start with the customer and work backwards. You work vigorously to earn and keep customer trust. Although you pay attention to competitors, you always obsess over customers."
     },
     {
-      "id": "ownership",
-      "title": "Ownership",
-      "details": "You are an owner. You think long term and don't sacrifice long-term value for short-term results. You act on behalf of the entire company, beyond just your own team. You never say “that’s not my job.”"
-    },
-    {
       "id": "invent-simplify",
       "title": "Invent and Simplify",
       "details": "You expect and require innovation and invention from your team and always find ways to simplify. You are externally aware, look for new ideas from everywhere, and are not limited by “not invented here”."
@@ -27,14 +22,19 @@
       "details": "You are never done learning and always seek to improve. You are curious about new possibilities and act to explore them."
     },
     {
+      "id": "ownership",
+      "title": "Ownership",
+      "details": "You are an owner. You think long term and don't sacrifice long-term value for short-term results. You act on behalf of the entire company, beyond just your own team. You never say “that’s not my job.”"
+    },
+    {
+      "id": "highest-standards",
+      "title": "Highest Standards",
+      "details": "You are continually raising the bar and drive your teams to deliver high quality products, services, and processes. You ensure that defects do not get sent down the line and that problems are fixed so they stay fixed."
+    },
+    {
       "id": "bias-action",
       "title": "Bias for Action",
       "details": "Speed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking."
-    },
-    {
-      "id": "frugality",
-      "title": "Frugality",
-      "details": "You accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention.  There are no extra points for growing headcount, budget size or fixed expense."
     },
     {
       "id": "deliver-results",
@@ -83,7 +83,7 @@
     {
       "id": "engineer-1",
       "title": "Engineer E1",
-      "description": "A Software Engineer E1 has a solid technical foundation, and a strong focus on growing their development skills. Engineers at this level are able to deliver small to medium-sized well-defined tasks, working individually or collaborating with others. They have a small amount of experience in a well-defined area.",
+      "description": "A Software Engineer E1 (Graduate) has a solid technical foundation, and a strong focus on growing their development skills. Engineers at this level are able to deliver small to medium-sized well-defined tasks, working individually or collaborating with others. They have a small amount of experience in a well-defined area.",
       "level": [
         { "id": "skill", "value": "beginner" },
         { "id": "effort-horizon", "value": "2w" },
@@ -124,7 +124,7 @@
     {
       "id": "engineer-2",
       "title": "Engineer E2",
-      "description": "A Software Engineer E2 has a large amount of experience in a well-defined area, and works to support other engineers in the team and leads by example. Engineers at this level are able to deliver medium to large tasks to production, working independently if required. They use best practices to ship high-quality code, and continue to push their knowledge.",
+      "description": "A Software Engineer E2 (Intermediate) has a large amount of experience in a well-defined area, and works to support other engineers in the team and leads by example. Engineers at this level are able to deliver medium to large tasks to production, working independently if required. They use best practices to ship high-quality code, and continue to push their knowledge.",
       "level": [
         { "id": "skill", "value": "intermediate" },
         { "id": "effort-horizon", "value": "4w" },
@@ -286,9 +286,9 @@
       ]
     },
     {
-      "id": "ic-1",
-      "title": "Individual Contributor IC1",
-      "description": "A Individual Contributor IC1 (Staff Engineer) is an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Software Engineers E5 proactively work with the team to identify areas for technical improvements and action them.",
+      "id": "engineer-5",
+      "title": "Engineer E5",
+      "description": "A Software Engineer E5 is an individual contributor (Staff Engineer/Architect) and an expert in a particular domain, such as a product or technology. Their role is to support and lead the technical direction across teams, share learnings, and effectively communicate future plans to product teams and the wider company. Software Engineers E5 proactively work with the team to identify areas for technical improvements and action them.",
       "level": [
         { "id": "skill", "value": "master" },
         { "id": "effort-horizon", "value": "1-2y" },
@@ -327,9 +327,9 @@
       ]
     },
     {
-      "id": "ic-2",
-      "title": "Individual Contributor IC2",
-      "description": "A Software Individual Contributor IC2 (Principal Engineer) is responsible for leading the Software Individual Contributor IC2 group. They ensure the Software Engineers E6 are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
+      "id": "engineer-6",
+      "title": "Engineer E6",
+      "description": "A Software Engineer E6 (Principal Engineer/Architect) is responsible for leading E5 engineers. They ensure that engineers are working effectively, by providing coaching, mentoring, and guidance where required. They organise the group in order to deliver value for the software teams and business.",
       "level": [
         { "id": "skill", "value": "master" },
         { "id": "effort-horizon", "value": "open" },
