@@ -6,7 +6,7 @@ const Start = () => {
   return (
     <Flex flexDirection="column" mx={[5]}>
       <Box width={'66%'} my={[4]}>
-        <Heading.h1 my={[2]}>Engineering Growth Framework</Heading.h1>
+        <Heading.h2 my={[2]}>Engineering Growth Framework</Heading.h2>
         <Heading.h6>
           The framework provides a clear, transparent and consequently fair
           approach to career progression.
